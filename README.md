@@ -15,7 +15,7 @@ Este material serve como um guia teórico e prático, focado na implementação 
 
 As notas de aulas podem estão hospedado online e podem ser acessadas gratuitamente pelo link abaixo:
 
-# [[Clique aqui para ler o livro online](https://introducao-estatistica-espacial.netlify.app/)](https://introducao-estatistica-espacial.netlify.app/)
+# [https://introducao-estatistica-espacial.netlify.app/](https://introducao-estatistica-espacial.netlify.app/)
 
 ---
 
