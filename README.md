@@ -35,7 +35,7 @@ O curso está estruturado em módulos que cobrem desde a base computacional até
 Se este material for útil para sua pesquisa ou trabalho, por favor, utilize as citações abaixo.
 
 ### Citação Geral do Curso
-> Nhancololo, A. M. & Scalon, J. D. (2026). *Introdução à Estatística Espacial: Teoria e Aplicações com R*. Notas de aula do Curso de Verão IME-USP. Disponível em: https://introducao-estatistica-espacial.netlify.app/
+> Nhancololo, A. M. & Scalon, J. D. (2026). *Introdução à Estatística Espacial: Teoria e Aplicações com R*. Notas de aula do Curso de Verão IME-USP. Disponível em: [https://introducao-estatistica-espacial.netlify.app/](https://introducao-a-estatistica-espacial.netlify.app/)
 
 ### Para a seção de Processos Pontuais
 > Nhancololo, A. M. (2024). *Processos pontuais espaciais univariados aplicados à distribuição de espécies arbóreas em florestas naturais*. Dissertação (Mestrado em Estatística e Experimentação Agropecuária) - Universidade Federal de Lavras, Lavras.
