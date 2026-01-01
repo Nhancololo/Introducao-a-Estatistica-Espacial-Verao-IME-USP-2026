@@ -1,4 +1,5 @@
-# Introdução à Estatística Espacial com R
+# Introdução à Estatística Espacial: Teoria e Aplicações com R
+
 
 ![R](https://img.shields.io/badge/Language-R-blue)
 ![Quarto](https://img.shields.io/badge/Built%20with-Quarto-green)
