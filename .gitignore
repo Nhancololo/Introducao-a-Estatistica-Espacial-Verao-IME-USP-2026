@@ -47,3 +47,27 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+#BLOQUEAR CÓDIGO FONTE
+*.qmd
+*.Rmd
+*.R
+*.Rproj
+*.bib
+_quarto.yml
+
+# BLOQUEAR DADOS SENSÍVEIS
+*.RData
+*.csv
+*.xlsx
+*.shp
+*.shx
+*.dbf
+data/
+
+# BLOQUEAR ARQUIVOS DE SISTEMA/CACHE
+.DS_Store
+.Rproj.user
+_freeze/
+_files/
+rosm.cache/
