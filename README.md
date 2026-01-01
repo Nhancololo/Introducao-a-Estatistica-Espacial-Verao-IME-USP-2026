@@ -21,11 +21,11 @@ As notas de aula estão hospedadas online e podem ser acessadas gratuitamente pe
 
 ## Conteúdo Programático
 
-1.  **Introdução ao R/RStudio:** Manipulação de dados e visualização básica.
-2.  **Fundamentos da Estatística Espacial:** Tipos de dados espaciais, projeções e cartografia.
-3.  **Geoestatística:** Análise variográfica, Krigagem (simples, ordinária, universal) e simulação.
-4.  **Dados de Área (Lattice Data):** Matrizes de vizinhança, Autocorrelação (Moran/Geary) e Modelos Autorregressivos (SAR, CAR).
-5.  **Processos Pontuais:** Padrões espaciais, Função K de Ripley e densidade de Kernel.
+1.  **Introdução ao R/RStudio**
+2.  **Fundamentos da Estatística Espacial**
+3.  **Geoestatística**
+4.  **Dados de Área (Lattice Data)**
+5.  **Processos Pontuais**
 
 ## Como Citar
 
