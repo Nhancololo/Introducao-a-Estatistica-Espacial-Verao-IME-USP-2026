@@ -1,32 +1,51 @@
-# Introdução à Estatística espacial 
+# Introdução à Estatística Espacial com R
 
- Este repositório contém as notas de aula do curso de verão ministrado no IME-USP (2026). O material foi desenvolvido utilizando [Quarto](https://quarto.org/) e R.
+![R](https://img.shields.io/badge/Language-R-blue)
+![Quarto](https://img.shields.io/badge/Built%20with-Quarto-green)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+![Status](https://img.shields.io/badge/Status-Concluído-success)
 
-Acesse o link [https://introducao-estatistica-espacial.netlify.app/](https://introducao-estatistica-espacial.netlify.app/) para ter acesso ao material.
+Bem-vindo ao repositório oficial das notas de aula do **Curso de Verão do IME-USP (2026)**.
 
-## Conteúdo
-O curso aborda conceitos fundamentais de forma introdutória, incluindo:
-- Introdução ao R/Rstudio
-- Fundamentos da Estatística Espacial
-- Geoestatística
-- Dados de área (Lattice Data)
-- Processos Pontuais
-
-## Como Citar
-O uso deste material é livre para fins educacionais e acadêmicos, desde que atribuída a devida autoria.
-
-**Citação Geral do Curso:**
-> Nhancololo, A. M. & Scalon, J. D. (2026). *Introdução à Estatística Espacial: Teoria e Aplicações com R*. Notas de aula do Curso de Verão IME-USP.
-
-**Nota sobre seção de Processos Pontuais:**
-
-Se utilizar o conteúdo referente à seção de **Processos Pontuais**, por favor, cite a dissertação original da qual o conteúdo foi extraído:
-> Nhancololo, A. M. (2024). *Processos pontuais espaciais univariados aplicados à distribuição de espécies arbóreas em florestas naturais*. Dissertação (Mestrado em Estatística e Experimentação Agropecuária) - Universidade Federal de Lavras, Lavras.
-
-## Contribuições e Erros
-Encontrou algum erro no código ou no texto? Sinta-se à vontade para abrir uma *Issue* neste repositório ou entrar em contato diretamente.
-
-**Email:** [amnhancololo@gmail.com](mailto:amnhancololo@gmail.com)
+Este material serve como um guia teórico e prático, focado na implementação de análises espaciais utilizando a linguagem R e o ambiente RStudio.
 
 ---
-*Licença: MIT*
+
+## Acesso ao Material
+
+O livro digital está hospedado online e pode ser acessado gratuitamente pelo link abaixo:
+
+# [👉 Clique aqui para ler o livro online](https://introducao-estatistica-espacial.netlify.app/)
+
+---
+
+## Conteúdo Programático
+
+O curso está estruturado em módulos que cobrem desde a base computacional até modelagens avançadas:
+
+1.  **Introdução ao R/RStudio:** Manipulação de dados e visualização básica.
+2.  **Fundamentos da Estatística Espacial:** Tipos de dados espaciais, projeções e cartografia.
+3.  **Geoestatística:** Análise variográfica, Krigagem (simples, ordinária, universal) e simulação.
+4.  **Dados de Área (Lattice Data):** Matrizes de vizinhança, Autocorrelação (Moran/Geary) e Modelos Autorregressivos (SAR, CAR).
+5.  **Processos Pontuais:** Padrões espaciais, Função K de Ripley e densidade de Kernel.
+
+## Como Citar
+
+Se este material for útil para sua pesquisa ou trabalho, por favor, utilize as citações abaixo.
+
+### Citação Geral do Curso
+> Nhancololo, A. M. & Scalon, J. D. (2026). *Introdução à Estatística Espacial: Teoria e Aplicações com R*. Notas de aula do Curso de Verão IME-USP. Disponível em: https://introducao-estatistica-espacial.netlify.app/
+
+### Para a seção de Processos Pontuais
+> Nhancololo, A. M. (2024). *Processos pontuais espaciais univariados aplicados à distribuição de espécies arbóreas em florestas naturais*. Dissertação (Mestrado em Estatística e Experimentação Agropecuária) - Universidade Federal de Lavras, Lavras.
+
+---
+
+## Contato e Contribuições
+
+Encontrou algum erro no código ou na teoria? Sugestões são bem-vindas!
+* **Issues:** Abra uma [Issue](https://github.com/Nhancololo/Notas-de-Aula-Estatistica/issues) neste repositório.
+* **Email:** [amnhancololo@gmail.com](mailto:amnhancololo@gmail.com)
+
+---
+*Desenvolvido com ❤️ por Alex Monito Nhancololo.*
