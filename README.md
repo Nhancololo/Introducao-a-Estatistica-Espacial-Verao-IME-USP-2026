@@ -1,6 +1,5 @@
 # Introdução à Estatística Espacial: Teoria e Aplicações com R
 
-
 ![R](https://img.shields.io/badge/Language-R-blue)
 ![Quarto](https://img.shields.io/badge/Built%20with-Quarto-green)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
@@ -14,7 +13,7 @@ Este material serve como um guia teórico e prático, focado na implementação 
 
 ## Acesso ao Material
 
-As notas de aulas podem estão hospedadas online e podem ser acessadas gratuitamente pelo link abaixo (clicando nele ou copiando e colando no navegador):
+As notas de aula estão hospedadas online e podem ser acessadas gratuitamente pelo link abaixo (clicando nele ou copiando e colando no navegador):
 
 # [https://introducao-a-estatistica-espacial.netlify.app/](https://introducao-a-estatistica-espacial.netlify.app/)
 
@@ -35,7 +34,7 @@ O curso está estruturado em módulos que cobrem desde a base computacional até
 Se este material for útil para sua pesquisa ou trabalho, por favor, utilize as citações abaixo.
 
 ### Citação Geral do Curso
-> Nhancololo, A. M. & Scalon, J. D. (2026). *Introdução à Estatística Espacial: Teoria e Aplicações com R*. Notas de aula do Curso de Verão IME-USP. Disponível em: [https://introducao-estatistica-espacial.netlify.app/](https://introducao-a-estatistica-espacial.netlify.app/)
+> Nhancololo, A. M. & Scalon, J. D. (2026). *Introdução à Estatística Espacial: Teoria e Aplicações com R*. Notas de aula do Curso de Verão IME-USP. Disponível em: [https://introducao-a-estatistica-espacial.netlify.app/](https://introducao-a-estatistica-espacial.netlify.app/)
 
 ### Para a seção de Processos Pontuais
 > Nhancololo, A. M. (2024). *Processos pontuais espaciais univariados aplicados à distribuição de espécies arbóreas em florestas naturais*. Dissertação (Mestrado em Estatística e Experimentação Agropecuária) - Universidade Federal de Lavras, Lavras.
@@ -45,10 +44,10 @@ Se este material for útil para sua pesquisa ou trabalho, por favor, utilize as 
 ## Contato e Contribuições
 
 Encontrou algum erro no código ou na teoria? Sugestões são bem-vindas!
-* **Issues:** Abra uma [Issue](https://github.com/Nhancololo/Notas-de-Aula-Estatistica/issues) neste repositório.
+* **Issues:** Abra uma [Issue](https://github.com/Nhancololo/Introducao-a-Estatistica-Espacial-Verao-IME-USP-2026/issues) neste repositório.
 * **Email:** [amnhancololo@gmail.com](mailto:amnhancololo@gmail.com)
 
 ---
 **Copyright © 2026 - Curso de Verão IME-USP** Este material é distribuído sob a [licença MIT](https://pt.wikipedia.org/wiki/Licen%C3%A7a_MIT).
 
-Alex Monito Nhancololo. 
+Alex Monito Nhancololo.
