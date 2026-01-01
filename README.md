@@ -14,7 +14,7 @@ Este material serve como um guia teórico e prático, focado na implementação 
 
 ## Acesso ao Material
 
-As notas de aulas podem estão hospedadas online e podem ser acessadas gratuitamente pelo link abaixo:
+As notas de aulas podem estão hospedadas online e podem ser acessadas gratuitamente pelo link abaixo (clicando nele ou copiando e colando no navegador):
 
 # [https://introducao-a-estatistica-espacial.netlify.app/](https://introducao-a-estatistica-espacial.netlify.app/)
 
@@ -49,4 +49,4 @@ Encontrou algum erro no código ou na teoria? Sugestões são bem-vindas!
 * **Email:** [amnhancololo@gmail.com](mailto:amnhancololo@gmail.com)
 
 ---
-*Desenvolvido com ❤️ por Alex Monito Nhancololo.*
+**Copyright © 2026 - Curso de Verão IME-USP** *Alex Monito Nhancololo. Este material é distribuído sob a licença MIT.*
