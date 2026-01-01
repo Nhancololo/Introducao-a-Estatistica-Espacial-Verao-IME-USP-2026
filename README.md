@@ -46,6 +46,6 @@ Encontrou algum erro no código ou na teoria? Sugestões são bem-vindas!
 * **Email:** [amnhancololo@gmail.com](mailto:amnhancololo@gmail.com)
 
 ---
-**Copyright © 2026 - Curso de Verão IME-USP** Este material é distribuído sob a [licença MIT](https://pt.wikipedia.org/wiki/Licen%C3%A7a_MIT).
+**Copyright © 2026 - [Curso de Verão IME-USP](https://www.ime.usp.br/verao/index.php)** Este material é distribuído sob a [licença MIT](https://pt.wikipedia.org/wiki/Licen%C3%A7a_MIT).
 
 Alex Monito Nhancololo.
