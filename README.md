@@ -21,8 +21,6 @@ As notas de aula estão hospedadas online e podem ser acessadas gratuitamente pe
 
 ## Conteúdo Programático
 
-O curso está estruturado em módulos que cobrem desde a base computacional até modelagens avançadas:
-
 1.  **Introdução ao R/RStudio:** Manipulação de dados e visualização básica.
 2.  **Fundamentos da Estatística Espacial:** Tipos de dados espaciais, projeções e cartografia.
 3.  **Geoestatística:** Análise variográfica, Krigagem (simples, ordinária, universal) e simulação.
