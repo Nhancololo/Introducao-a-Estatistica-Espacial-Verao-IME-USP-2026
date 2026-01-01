@@ -1,0 +1,2025 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR" xml:lang="pt-BR"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.26">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Referências Bibliográficas – Introdução à Estatística Espacial</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./spatiotemporal.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-6d088c4ce919446e15da3b20ce9bdb36.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "Nenhum resultado",
+    "search-matching-documents-text": "documentos correspondentes",
+    "search-copy-link-title": "Copiar link para a busca",
+    "search-hide-matches-text": "Esconder correspondências adicionais",
+    "search-more-match-text": "mais correspondência neste documento",
+    "search-more-matches-text": "mais correspondências neste documento",
+    "search-clear-button-title": "Limpar",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancelar",
+    "search-submit-button-title": "Enviar",
+    "search-label": "Procurar"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+
+
+</head>
+
+<body class="nav-sidebar docked quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./references.html">Referências Bibliográficas</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Procurar" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Introdução à Estatística Espacial</a> 
+        <div class="sidebar-tools-main">
+    <div class="dropdown">
+      <a href="" title="Baixar" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" role="link" aria-label="Baixar"><i class="bi bi-download"></i></a>
+      <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="./Introdução-à-Estatística-Espacial.pdf">
+              <i class="bi bi-file-pdf pe-1"></i>
+            Baixar PDF
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="./Introdução-à-Estatística-Espacial.epub">
+              <i class="bi bi-journal pe-1"></i>
+            Baixar ePub
+            </a>
+          </li>
+      </ul>
+    </div>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Procurar"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Prefácio</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false">
+ <span class="menu-text">Introdução ao R/Rstudio</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false" aria-label="Alternar seção">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./intro.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introdução ao R/RStudio</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false">
+ <span class="menu-text">Fundamentos da Estatística Espacial</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Alternar seção">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./fundEstspatial.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Fundamentos da Estatística Espacial</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false">
+ <span class="menu-text">Geostatística</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false" aria-label="Alternar seção">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./geostat.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Geoestatística</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false">
+ <span class="menu-text">Dados de Área (Lattice)</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false" aria-label="Alternar seção">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./lattice_data.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Dados de Área</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false">
+ <span class="menu-text">Processos Pontuais</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false" aria-label="Alternar seção">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./point_process.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Processos Pontuais</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="false">
+ <span class="menu-text">Espaço-Temporal</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="false" aria-label="Alternar seção">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./spatiotemporal.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Modelagem Espaço-Temporal</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./references.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Referências Bibliográficas</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Referências Bibliográficas</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-moragagonz2023non" class="csl-entry" role="listitem">
+A González, Jonatan, and Paula Moraga. 2023. <span>“Non-Parametric
+Analysis of Spatial and Spatio-Temporal Point Patterns.”</span>
+</div>
+<div id="ref-abdulah2023large" class="csl-entry" role="listitem">
+Abdulah, Sameh, Yuxiao Li, Jian Cao, Hatem Ltaief, David E Keyes, Marc G
+Genton, and Ying Sun. 2023. <span>“Large-Scale Environmental Data
+Science with ExaGeoStatR.”</span> <em>Environmetrics</em> 34 (1): e2770.
+</div>
+<div id="ref-anselin1988spatial" class="csl-entry" role="listitem">
+Anselin, Luc. 1988. <span>“Spatial Econometrics: Methods and
+Models.”</span> <em>Kluwer Academic Publishers Google Schola</em> 2:
+283–91.
+</div>
+<div id="ref-anselin1995local" class="csl-entry" role="listitem">
+———. 1995. <span>“Local Indicators of Spatial Association—LISA.”</span>
+<em>Geographical Analysis</em> 27 (2): 93–115.
+</div>
+<div id="ref-anselin2001spatial" class="csl-entry" role="listitem">
+———. 2001. <span>“Spatial Econometrics.”</span> In <em>A Companion to
+Theoretical Econometrics</em>, edited by Badi H. Baltagi, 310–30.
+Oxford: Blackwell Publishing.
+</div>
+<div id="ref-anselin2002under" class="csl-entry" role="listitem">
+———. 2002. <span>“Under the Hood Issues in the Specification and
+Interpretation of Spatial Regression Models.”</span> <em>Agricultural
+Economics</em> 27 (3): 247–67.
+</div>
+<div id="ref-anselin2010thirty" class="csl-entry" role="listitem">
+———. 2010. <span>“Thirty Years of Spatial Econometrics.”</span>
+<em>Papers in Regional Science</em> 89 (1): 3–26.
+</div>
+<div id="ref-baddeley2007validation" class="csl-entry" role="listitem">
+Baddeley, Adrian. 2007. <span>“Validation of Statistical Models for
+Spatial Point Patterns.”</span> In <em>Statistical Challenges in Modern
+Astronomy IV</em>, 371:22.
+</div>
+<div id="ref-baddeley2008analysing" class="csl-entry" role="listitem">
+Baddeley, Adrian et al. 2008. <span>“Analysing Spatial Point Patterns in
+r.”</span> Technical report, CSIRO, 2010. Version 4. Available at www.
+csiro. au&nbsp;….
+</div>
+<div id="ref-baddeley2010multivariate" class="csl-entry" role="listitem">
+Baddeley, Adrian. 2010. <span>“Multivariate and Marked Point
+Processes.”</span> <em>Handbook of Spatial Statistics</em>, 371–402.
+</div>
+<div id="ref-baddeley2000non" class="csl-entry" role="listitem">
+Baddeley, Adrian J, Jesper Møller, and Rasmus Waagepetersen. 2000.
+<span>“Non-and Semi-Parametric Estimation of Interaction in
+Inhomogeneous Point Patterns.”</span> <em>Statistica Neerlandica</em> 54
+(3): 329–50.
+</div>
+<div id="ref-baddeley1995area" class="csl-entry" role="listitem">
+Baddeley, Adrian J, and MNM Van Lieshout. 1995. <span>“Area-Interaction
+Point Processes.”</span> <em>Annals of the Institute of Statistical
+Mathematics</em> 47: 601–19.
+</div>
+<div id="ref-baddeley1996markov" class="csl-entry" role="listitem">
+Baddeley, Adrian J, MNM Van Lieshout, and Jesper Møller. 1996.
+<span>“Markov Properties of Cluster Processes.”</span> <em>Advances in
+Applied Probability</em> 28 (2): 346–55.
+</div>
+<div id="ref-baddeley2013residual" class="csl-entry" role="listitem">
+Baddeley, Adrian, Ya-Mei Chang, Yong Song, and Rolf Turner. 2013.
+<span>“Residual Diagnostics for Covariate Effects in Spatial Point
+Process Models.”</span> <em>Journal of Computational and Graphical
+Statistics</em> 22 (4): 886–905.
+</div>
+<div id="ref-baddeley2022fundamental" class="csl-entry" role="listitem">
+Baddeley, Adrian, Tilman M Davies, Martin L Hazelton, Suman Rakshit, and
+Rolf Turner. 2022. <span>“Fundamental Problems in Fitting Spatial
+Cluster Process Models.”</span> <em>Spatial Statistics</em> 52: 100709.
+</div>
+<div id="ref-baddeley2015" class="csl-entry" role="listitem">
+Baddeley, Adrian, Ege Rubak, and Rolf Turner. 2015. <em>Spatial Point
+Patterns: Methodology and Applications with <span>R</span></em>. London:
+Chapman; Hall/CRC Press. <a href="https://www.routledge.com/Spatial-Point-Patterns-Methodology-and-Applications-with-R/Baddeley-Rubak-Turner/p/book/9781482210200/">https://www.routledge.com/Spatial-Point-Patterns-Methodology-and-Applications-with-R/Baddeley-Rubak-Turner/p/book/9781482210200/</a>.
+</div>
+<div id="ref-spatstat" class="csl-entry" role="listitem">
+Baddeley, Adrian, and Rolf Turner. 2005. <span>“<span class="nocase">spatstat</span>: An <span>R</span> Package for Analyzing
+Spatial Point Patterns.”</span> <em>Journal of Statistical Software</em>
+12 (6): 1–42. <a href="https://doi.org/10.18637/jss.v012.i06">https://doi.org/10.18637/jss.v012.i06</a>.
+</div>
+<div id="ref-Hybrids" class="csl-entry" role="listitem">
+Baddeley, Adrian, Rolf Turner, Jorge Mateu, and Andrew Bevan. 2013.
+<span>“Hybrids of Gibbs Point Process Models and Their
+Implementation.”</span> <em>Journal of Statistical Software</em> 55
+(11): 1–43. <a href="https://doi.org/10.18637/jss.v055.i11">https://doi.org/10.18637/jss.v055.i11</a>.
+</div>
+<div id="ref-baddeley2005residual" class="csl-entry" role="listitem">
+Baddeley, Adrian, Rolf Turner, Jesper Møller, and Martin Hazelton. 2005.
+<span>“Residual Analysis for Spatial Point Processes (with
+Discussion).”</span> <em>Journal of the Royal Statistical Society Series
+B: Statistical Methodology</em> 67 (5): 617–66.
+</div>
+<div id="ref-baddeley2019residuals" class="csl-entry" role="listitem">
+Baddeley, AJ, M Hazelton, J Møller, and R Turner. 2019. <span>“Residuals
+and Diagnostics for Spatial Point Processes.”</span> In. Citeseer.
+</div>
+<div id="ref-bakka2018spatial" class="csl-entry" role="listitem">
+Bakka, Haakon, Håvard Rue, Geir-Arne Fuglstad, Andrea Riebler, David
+Bolin, Janine Illian, Elias Krainski, Daniel Simpson, and Finn Lindgren.
+2018. <span>“Spatial Modeling with r-INLA: A Review.”</span> <em>Wiley
+Interdisciplinary Reviews: Computational Statistics</em> 10 (6): e1443.
+</div>
+<div id="ref-bandyopadhyay2017test" class="csl-entry" role="listitem">
+Bandyopadhyay, Soutir, and Suhasini Subba Rao. 2017. <span>“A Test for
+Stationarity for Irregularly Spaced Spatial Data.”</span> <em>Journal of
+the Royal Statistical Society Series B: Statistical Methodology</em> 79
+(1): 95–123.
+</div>
+<div id="ref-banerjee2016spatial" class="csl-entry" role="listitem">
+Banerjee, Sudipto. 2016. <span>“Spatial Data Analysis.”</span>
+<em>Annual Review of Public Health</em> 37 (1): 47–60.
+</div>
+<div id="ref-banerjee2003hierarchical" class="csl-entry" role="listitem">
+Banerjee, Sudipto, Bradley P Carlin, and Alan E Gelfand. 2003.
+<em>Hierarchical Modeling and Analysis for Spatial Data</em>. Chapman;
+Hall/CRC.
+</div>
+<div id="ref-bartholomew1995statistics" class="csl-entry" role="listitem">
+Bartholomew, David J. 1995. <span>“What Is Statistics?”</span>
+<em>Journal of the Royal Statistical Society Series A: Statistics in
+Society</em> 158 (1): 1–20.
+</div>
+<div id="ref-bell2004special" class="csl-entry" role="listitem">
+Bell, William Wallace. 2004. <em>Special Functions for Scientists and
+Engineers</em>. Courier Corporation.
+</div>
+<div id="ref-beron2004probit" class="csl-entry" role="listitem">
+Beron, Kurt J, and Wim PM Vijverberg. 2004. <span>“Probit in a Spatial
+Context: A Monte Carlo Analysis.”</span> In <em>Advances in Spatial
+Econometrics: Methodology, Tools and Applications</em>, 169–95.
+Springer.
+</div>
+<div id="ref-besag1977discussion" class="csl-entry" role="listitem">
+Besag, J. 1977. <span>“Discussion of Dr Ripley’s Paper.”</span>
+<em>Journal of the Royal Statistical Society, Series B</em> 39 (2):
+193–95.
+</div>
+<div id="ref-besag1974spatial" class="csl-entry" role="listitem">
+Besag, Julian. 1974. <span>“Spatial Interaction and the Statistical
+Analysis of Lattice Systems.”</span> <em>Journal of the Royal
+Statistical Society: Series B (Methodological)</em> 36 (2): 192–225.
+</div>
+<div id="ref-besag1975statistical" class="csl-entry" role="listitem">
+———. 1975. <span>“Statistical Analysis of Non-Lattice Data.”</span>
+<em>Journal of the Royal Statistical Society Series D: The
+Statistician</em> 24 (3): 179–95.
+</div>
+<div id="ref-besag1993spatial" class="csl-entry" role="listitem">
+Besag, Julian, and Peter J Green. 1993. <span>“Spatial Statistics and
+Bayesian Computation.”</span> <em>Journal of the Royal Statistical
+Society Series B: Statistical Methodology</em> 55 (1): 25–37.
+</div>
+<div id="ref-BesagKooperberg1995" class="csl-entry" role="listitem">
+Besag, Julian, and Charles Kooperberg. 1995. <span>“<span class="nocase">On Conditional and Intrinsic
+Autoregression</span>.”</span> <em>Biometrika</em> 82 (4): 733–46. <a href="https://doi.org/10.2307/2337341">https://doi.org/10.2307/2337341</a>.
+</div>
+<div id="ref-besag1991bayesian" class="csl-entry" role="listitem">
+Besag, Julian, Jeremy York, and Annie Mollié. 1991. <span>“Bayesian
+Image Restoration, with Two Applications in Spatial Statistics.”</span>
+<em>Annals of the Institute of Statistical Mathematics</em> 43 (1):
+1–20.
+</div>
+<div id="ref-bille2019spatial" class="csl-entry" role="listitem">
+Billé, Anna Gloria, and Giuseppe Arbia. 2019. <span>“Spatial Limited
+Dependent Variable Models: A Review Focused on Specification,
+Estimation, and Health Economics Applications.”</span> <em>Journal of
+Economic Surveys</em> 33 (5): 1531–54.
+</div>
+<div id="ref-bille2020partial" class="csl-entry" role="listitem">
+Billé, Anna Gloria, and Samantha Leorato. 2020. <span>“Partial ML
+Estimation for Spatial Autoregressive Nonlinear Probit Models with
+Autoregressive Disturbances.”</span> <em>Econometric Reviews</em> 39
+(5): 437–75.
+</div>
+<div id="ref-boschma2005proximity" class="csl-entry" role="listitem">
+Boschma, Ron. 2005. <span>“Proximity and Innovation: A Critical
+Assessment.”</span> <em>Regional Studies</em> 39 (1): 61–74.
+</div>
+<div id="ref-brunsdon1996geographically" class="csl-entry" role="listitem">
+Brunsdon, Chris, A Stewart Fotheringham, and Martin E Charlton. 1996.
+<span>“Geographically Weighted Regression: A Method for Exploring
+Spatial Nonstationarity.”</span> <em>Geographical Analysis</em> 28 (4):
+281–98.
+</div>
+<div id="ref-burbano2024spatial" class="csl-entry" role="listitem">
+Burbano-Moreno, Alvaro Alexander, and Vinı́cius Diniz Mayrink. 2024.
+<span>“Spatial Functional Data Analysis: Irregular Spacing and Bernstein
+Polynomials.”</span> <em>Spatial Statistics</em> 60: 100832.
+</div>
+<div id="ref-burridge1980cliff" class="csl-entry" role="listitem">
+Burridge, Peter. 1980. <span>“On the Cliff-Ord Test for Spatial
+Correlation.”</span> <em>Journal of the Royal Statistical Society:
+Series B (Methodological)</em> 42 (1): 107–8.
+</div>
+<div id="ref-burridge1981testing" class="csl-entry" role="listitem">
+———. 1981. <span>“Testing for a Common Factor in a Spatial
+Autoregression Model.”</span> <em>Environment and Planning A</em> 13
+(7): 795–800.
+</div>
+<div id="ref-calabrese2014estimators" class="csl-entry" role="listitem">
+Calabrese, Raffaella, and Johan A Elkink. 2014. <span>“Estimators of
+Binary Spatial Autoregressive Models: A Monte Carlo Study.”</span>
+<em>Journal of Regional Science</em> 54 (4): 664–87.
+</div>
+<div id="ref-carvalho2017overview" class="csl-entry" role="listitem">
+Carvalho, Dhaniel, and CV Deutsch. 2017. <span>“An Overview of Multiple
+Indicator Kriging.”</span> <em>Geostatistics Lessons</em> 7.
+</div>
+<div id="ref-berger2001statistical" class="csl-entry" role="listitem">
+Casella, George, and Roger L Berger. 2001. <em>Statistical
+Inference</em>. Duxbury.
+</div>
+<div id="ref-chen2021space" class="csl-entry" role="listitem">
+Chen, Wanfang, Marc G Genton, and Ying Sun. 2021. <span>“Space-Time
+Covariance Structures and Models.”</span> <em>Annual Review of
+Statistics and Its Application</em> 8 (1): 191–215.
+</div>
+<div id="ref-leaflet" class="csl-entry" role="listitem">
+Cheng, Joe, Barret Schloerke, Bhaskar Karambelkar, Yihui Xie, and
+Garrick Aden-Buie. 2025. <em>Leaflet: Create Interactive Web Maps with
+the JavaScript ’Leaflet’ Library</em>. <a href="https://doi.org/10.32614/CRAN.package.leaflet">https://doi.org/10.32614/CRAN.package.leaflet</a>.
+</div>
+<div id="ref-chiles2012geostatistics" class="csl-entry" role="listitem">
+Chiles, Jean-Paul, and Pierre Delfiner. 2012. <em>Geostatistics:
+Modeling Spatial Uncertainty</em>. John Wiley &amp; Sons.
+</div>
+<div id="ref-chun2017" class="csl-entry" role="listitem">
+Chun, Yongwan, and Daniel A. Griffith. 2017. <span>“Measuring Spatial
+Dependence.”</span> <em>International Encyclopedia of Geography</em>,
+March, 1–14. <a href="https://doi.org/10.1002/9781118786352.wbieg0850">https://doi.org/10.1002/9781118786352.wbieg0850</a>.
+</div>
+<div id="ref-clark1954distance" class="csl-entry" role="listitem">
+Clark, Philip J, and Francis C Evans. 1954. <span>“Distance to Nearest
+Neighbor as a Measure of Spatial Relationships in Populations.”</span>
+<em>Ecology</em> 35 (4): 445–53.
+</div>
+<div id="ref-cliff1981spatial" class="csl-entry" role="listitem">
+Cliff, Andrew David, and J Keith Ord. 1981. <span>“Spatial Processes:
+Models &amp; Applications.”</span> <em>(No Title)</em>.
+https://doi.org/<a href="https://doi.org/10.2307/2530324">https://doi.org/10.2307/2530324</a>.
+</div>
+<div id="ref-conte2023lecture02" class="csl-entry" role="listitem">
+Conte, Bruno. 2023. <span>“Lecture 02: Spatial Data Theory and Tools
+(a.k.a. GIS Tools Lab.).”</span> Alma Mater Studiorum Università di
+Bologna; Lecture slides.
+</div>
+<div id="ref-cox2011" class="csl-entry" role="listitem">
+Cox, Simon Jonathan David. 2011. <em>ISO 19156:2011 - Geographic
+Information – Observations and Measurements</em>. International
+Organization for Standardization. <a href="https://doi.org/10.13140/2.1.1142.3042">https://doi.org/10.13140/2.1.1142.3042</a>.
+</div>
+<div id="ref-crawford2009" class="csl-entry" role="listitem">
+Crawford, T. W. 2009. <span>“Scale Analytical.”</span> In, 29–36.
+Elsevier. <a href="https://doi.org/10.1016/b978-008044910-4.00399-0">https://doi.org/10.1016/b978-008044910-4.00399-0</a>.
+</div>
+<div id="ref-cressie1993" class="csl-entry" role="listitem">
+Cressie, N. 1993. <em>Statistics for Patial Ata: Iley Eries in
+Robability and Tatistics</em>. Wiley-Interscience.
+</div>
+<div id="ref-cressie1985fitting" class="csl-entry" role="listitem">
+Cressie, Noel. 1985. <span>“Fitting Variogram Models by Weighted Least
+Squares.”</span> <em>Journal of the International Association for
+Mathematical Geology</em> 17 (5): 563–86.
+</div>
+<div id="ref-cressie1989geostatistics" class="csl-entry" role="listitem">
+———. 1989. <span>“Geostatistics.”</span> <em>The American
+Statistician</em> 43 (4): 197–202.
+</div>
+<div id="ref-cressie1990origins" class="csl-entry" role="listitem">
+———. 1990. <span>“The Origins of Kriging.”</span> <em>Mathematical
+Geology</em> 22 (3): 239–52.
+</div>
+<div id="ref-cressie1991geostatistical" class="csl-entry" role="listitem">
+———. 1991. <span>“Geostatistical Analysis of Spatial Data.”</span>
+<em>Spatial Statistics and Digital Image Analysis</em> 1991: 87–108.
+</div>
+<div id="ref-cressie1993statistics" class="csl-entry" role="listitem">
+———. 1993. <em>Statistics for Spatial Data</em>. John Wiley &amp; Sons.
+</div>
+<div id="ref-cressie1989spatial" class="csl-entry" role="listitem">
+Cressie, Noel, and Ngai H Chan. 1989. <span>“Spatial Modeling of
+Regional Variables.”</span> <em>Journal of the American Statistical
+Association</em> 84 (406): 393–401.
+</div>
+<div id="ref-cressie1980robust" class="csl-entry" role="listitem">
+Cressie, Noel, and Douglas M Hawkins. 1980. <span>“Robust Estimation of
+the Variogram: i.”</span> <em>Journal of the International Association
+for Mathematical Geology</em> 12 (2): 115–25.
+</div>
+<div id="ref-cressie2022spatial" class="csl-entry" role="listitem">
+Cressie, Noel, and Matthew T Moores. 2022. <span>“Spatial
+Statistics.”</span> In <em>Encyclopedia of Mathematical
+Geosciences</em>, 1–11. Springer.
+</div>
+<div id="ref-cressie2022basis" class="csl-entry" role="listitem">
+Cressie, Noel, Matthew Sainsbury-Dale, and Andrew Zammit-Mangion. 2022.
+<span>“Basis-Function Models in Spatial Statistics.”</span> <em>Annual
+Review of Statistics and Its Application</em> 9 (1): 373–400.
+</div>
+<div id="ref-cressie2016multivariate" class="csl-entry" role="listitem">
+Cressie, Noel, and Andrew Zammit-Mangion. 2016. <span>“Multivariate
+Spatial Covariance Models: A Conditional Approach.”</span>
+<em>Biometrika</em> 103 (4): 915–35.
+</div>
+<div id="ref-cronie2016bandwidth" class="csl-entry" role="listitem">
+Cronie, O, and MNM Van Lieshout. 2016. <span>“Bandwidth Selection for
+Kernel Estimators of the Spatial Intensity Function.”</span> <em>arXiv
+Preprint arXiv:1611.10221</em>.
+</div>
+<div id="ref-dasilva2016multiple" class="csl-entry" role="listitem">
+da Silva, Anderson R., and A. Stewart Fotheringham. 2016. <span>“The
+Multiple Testing Issue in Geographically Weighted Regression.”</span>
+<em>Geographical Analysis</em> 48 (3): 233–47.
+</div>
+<div id="ref-dasilva2018comparing" class="csl-entry" role="listitem">
+da Silva, Anderson R., and Flávio F. Mendes. 2018. <span>“On Comparing
+Some Algorithms for Finding the Optimal Bandwidth in Geographically
+Weighted Regression.”</span> <em>Applied Soft Computing</em> 73: 943–57.
+</div>
+<div id="ref-delicado2010statistics" class="csl-entry" role="listitem">
+Delicado, Pedro, Ramón Giraldo, Carlos Comas, and Jorge Mateu. 2010.
+<span>“Statistics for Spatial Functional Data: Some Recent
+Contributions.”</span> <em>Environmetrics: The Official Journal of the
+International Environmetrics Society</em> 21 (3-4): 224–39.
+</div>
+<div id="ref-DeutschJournel1997" class="csl-entry" role="listitem">
+Deutsch, Clayton V., and André G. Journel. 1997. <em>GSLIB:
+Geostatistical Software Library and User’s Guide</em>. 2nd ed. New York:
+Oxford University Press.
+</div>
+<div id="ref-diggle2010nonparametric" class="csl-entry" role="listitem">
+Diggle, Peter J. 2010. <em>Nonparametric Methods</em>. Chapman &amp;
+Hall/CRC Handb. Mod. Stat. Methods.
+</div>
+<div id="ref-diggle2013statistical" class="csl-entry" role="listitem">
+———. 2013. <em>Statistical Analysis of Spatial and Spatio-Temporal Point
+Patterns</em>. CRC press.
+</div>
+<div id="ref-diggle1987nonparametric" class="csl-entry" role="listitem">
+Diggle, Peter J, David J Gates, and Alyson Stibbard. 1987. <span>“A
+Nonparametric Estimator for Pairwise-Interaction Point
+Processes.”</span> <em>Biometrika</em> 74 (4): 763–70.
+</div>
+<div id="ref-diggle1984monte" class="csl-entry" role="listitem">
+Diggle, Peter J, and Richard J Gratton. 1984. <span>“Monte Carlo Methods
+of Inference for Implicit Statistical Models.”</span> <em>Journal of the
+Royal Statistical Society Series B: Statistical Methodology</em> 46 (2):
+193–212.
+</div>
+<div id="ref-Diggle2003StatisticalAO" class="csl-entry" role="listitem">
+Diggle, Peter John. 2003. <span>“Statistical Analysis of Spatial Point
+Patterns.”</span> In, 2nd ed.
+</div>
+<div id="ref-diggle1998model" class="csl-entry" role="listitem">
+Diggle, Peter J, Jonathan A Tawn, and Rana A Moyeed. 1998.
+<span>“Model-Based Geostatistics.”</span> <em>Journal of the Royal
+Statistical Society Series C: Applied Statistics</em> 47 (3): 299–350.
+</div>
+<div id="ref-dreesman2001non" class="csl-entry" role="listitem">
+Dreesman, Johannes M, and Gerhard Tutz. 2001. <span>“Non-Stationary
+Conditional Models for Spatial Data Based on Varying
+Coefficients.”</span> <em>Journal of the Royal Statistical Society:
+Series D (The Statistician)</em> 50 (1): 1–15.
+</div>
+<div id="ref-ggspatial" class="csl-entry" role="listitem">
+Dunnington, Dewey. 2025. <em>Ggspatial: Spatial Data Framework for
+Ggplot2</em>. <a href="https://doi.org/10.32614/CRAN.package.ggspatial">https://doi.org/10.32614/CRAN.package.ggspatial</a>.
+</div>
+<div id="ref-ecker2003geostatistics" class="csl-entry" role="listitem">
+Ecker, Mark D. 2003. <span>“Geostatistics: Past, Present and
+Future.”</span> <em>Encyclopedia of Life Support Systems (EOLSS)</em>,
+50614–506.
+</div>
+<div id="ref-elhorst2014spatial" class="csl-entry" role="listitem">
+Elhorst, J Paul et al. 2014. <em>Spatial Econometrics: From
+Cross-Sectional Data to Spatial Panels</em>. Vol. 479. Springer.
+</div>
+<div id="ref-elhorst2022dynamic" class="csl-entry" role="listitem">
+Elhorst, J Paul. 2022. <span>“The Dynamic General Nesting Spatial
+Econometric Model for Spatial Panels with Common Factors: Further
+Raising the Bar.”</span> <em>Review of Regional Research</em> 42 (3):
+249–67.
+</div>
+<div id="ref-favero2003modelos" class="csl-entry" role="listitem">
+Fávero, Luiz Paulo Lopes. 2003. <span>“Modelos de Pre<span>ç</span>os
+Hed<span>ô</span>nicos Aplicados a Im<span>ó</span>veis Residenciais Em
+Lan<span>ç</span>amento No Munic<span>ı́</span>pio de s<span>ã</span>o
+Paulo.”</span> PhD thesis, Universidade de S<span>ã</span>o Paulo.
+</div>
+<div id="ref-ferreira2020fundamentos" class="csl-entry" role="listitem">
+Ferreira, Daniel Furtado. 2020. <em>Fundamentos de Probabilidade</em>.
+Lavras: UFLA.
+</div>
+<div id="ref-fienberg2014statistics" class="csl-entry" role="listitem">
+Fienberg, Stephen E. 2014. <span>“What Is Statistics?”</span> <em>Annual
+Review of Statistics and Its Application</em> 1 (1): 1–9.
+</div>
+<div id="ref-fleming2004techniques" class="csl-entry" role="listitem">
+Fleming, Mark M. 2004. <span>“Techniques for Estimating Spatially
+Dependent Discrete Choice Models.”</span> In <em>Advances in Spatial
+Econometrics: Methodology, Tools and Applications</em>, 145–68.
+Springer.
+</div>
+<div id="ref-fotheringham2017multiscale" class="csl-entry" role="listitem">
+Fotheringham, A. Stewart, Wenbai Yang, and Wei Kang. 2017.
+<span>“Multiscale Geographically Weighted Regression (MGWR).”</span>
+<em>Annals of the American Association of Geographers</em> 107 (6):
+1247–65. <a href="https://doi.org/10.1080/24694452.2017.1352480">https://doi.org/10.1080/24694452.2017.1352480</a>.
+</div>
+<div id="ref-fotheringham2022notion" class="csl-entry" role="listitem">
+Fotheringham, A. Stewart, Hanchen Yu, Levi John Wolf, Taylor M. Oshan,
+and Ziqi Li. 2022. <span>“On the Notion of <span>‘Bandwidth’</span> in
+Geographically Weighted Regression Models of Spatially Varying
+Processes.”</span> <em>International Journal of Geographical Information
+Science</em> 36 (8): 1485–1502. <a href="https://doi.org/10.1080/13658816.2022.2034829">https://doi.org/10.1080/13658816.2022.2034829</a>.
+</div>
+<div id="ref-Garcia-Portugues2024" class="csl-entry" role="listitem">
+García-Portugués, E. 2024. <em>Notes for Nonparametric Statistics</em>.
+<a href="https://bookdown.org/egarpor/NP-UC3M/">https://bookdown.org/egarpor/NP-UC3M/</a>.
+</div>
+<div id="ref-gatrell1996spatial" class="csl-entry" role="listitem">
+Gatrell, Anthony C, Trevor C Bailey, Peter J Diggle, and Barry S
+Rowlingson. 1996. <span>“Spatial Point Pattern Analysis and Its
+Application in Geographical Epidemiology.”</span> <em>Transactions of
+the Institute of British Geographers</em>, 256–74.
+</div>
+<div id="ref-gelfand2010handbook" class="csl-entry" role="listitem">
+Gelfand, Alan E, Peter Diggle, Peter Guttorp, and Montserrat Fuentes.
+2010. <em>Handbook of Spatial Statistics</em>. CRC press.
+</div>
+<div id="ref-gelman2006prior" class="csl-entry" role="listitem">
+Gelman, Andrew. 2006. <span>“Prior Distributions for Variance Parameters
+in Hierarchical Models.”</span> <em>Bayesian Analysis</em> 1 (3):
+515–34.
+</div>
+<div id="ref-genton1998variogram" class="csl-entry" role="listitem">
+Genton, Marc G. 1998. <span>“Variogram Fitting by Generalized Least
+Squares Using an Explicit Formula for the Covariance Structure.”</span>
+<em>Mathematical Geology</em> 30 (4): 323–45.
+</div>
+<div id="ref-getis1995cliff" class="csl-entry" role="listitem">
+Getis, Arthur. 1995. <span>“Cliff, Ad and Ord, Jk 1973: Spatial
+Autocorrelation. London: Pion.”</span> <em>Progress in Human
+Geography</em> 19 (2): 245–49.
+</div>
+<div id="ref-getis1999spatial" class="csl-entry" role="listitem">
+———. 1999. <span>“Spatial Statistics.”</span> <em>Geographical
+Information Systems</em> 1: 239–51.
+</div>
+<div id="ref-Getis2010SpatialAutocorrelation" class="csl-entry" role="listitem">
+———. 2010. <span>“Spatial Autocorrelation.”</span> In <em>Handbook of
+Applied Spatial Analysis: Software Tools, Methods and Applications</em>,
+edited by Manfred M. Fischer and Arthur Getis, 255–78. Berlin,
+Heidelberg: Springer.
+</div>
+<div id="ref-getis1992analysis" class="csl-entry" role="listitem">
+Getis, Arthur, and J Keith Ord. 1992. <span>“The Analysis of Spatial
+Association by Use of Distance Statistics.”</span> <em>Geographical
+Analysis</em> 24 (3): 189–206.
+</div>
+<div id="ref-giraud2025mapsf" class="csl-entry" role="listitem">
+Giraud, Timothée. 2025. <span>“Mapsf: Thematic Cartography.”</span>
+</div>
+<div id="ref-gollini2015gwmodel" class="csl-entry" role="listitem">
+Gollini, Isabella, Binbin Lu, Martin Charlton, Christopher Brunsdon, and
+Paul Harris. 2015. <span>“GWmodel: An r Package for Exploring Spatial
+Heterogeneity Using Geographically Weighted Models.”</span> <em>Journal
+of Statistical Software</em> 63: 1–50.
+</div>
+<div id="ref-goovaerts1997geostatistics" class="csl-entry" role="listitem">
+Goovaerts, Pierre. 1997. <em>Geostatistics for Natural Resources
+Evaluation</em>. Oxford university press.
+</div>
+<div id="ref-gorsich2000variogram" class="csl-entry" role="listitem">
+Gorsich, David J, and Marc G Genton. 2000. <span>“Variogram Model
+Selection via Nonparametric Derivative Estimation.”</span>
+<em>Mathematical Geology</em> 32 (3): 249–70.
+</div>
+<div id="ref-graler2016spatio" class="csl-entry" role="listitem">
+Gräler, Benedikt, Edzer Pebesma, and Gerard Heuvelink. 2016.
+<span>“Spatio-Temporal Interpolation Using Gstat.”</span>
+</div>
+<div id="ref-Greene2003Econometric" class="csl-entry" role="listitem">
+Greene, William H. 2003. <em>Econometric Analysis</em>. 5th ed. Prentice
+Hall.
+</div>
+<div id="ref-guimaraes2012use" class="csl-entry" role="listitem">
+Guimaraes, Ricardo JPS, Corina C Freitas, Luciano V Dutra, Carlos A
+Felgueiras, Sandra C Drummond, Sandra HC Tibiriçá, Guilherme Oliveira,
+and Omar S Carvalho. 2012. <span>“Use of Indicator Kriging to
+Investigate Schistosomiasis in Minas Gerais State, Brazil.”</span>
+<em>Journal of Tropical Medicine</em> 2012 (1): 837428.
+</div>
+<div id="ref-guo2008comparison" class="csl-entry" role="listitem">
+Guo, L., Z. Ma, and L. Zhang. 2008. <span>“Comparison of Bandwidth
+Selection in Application of Geographically Weighted Regression: A Case
+Study.”</span> <em>Canadian Journal of Forest Research</em> 38 (9):
+2526–34.
+</div>
+<div id="ref-guttorp2006studies" class="csl-entry" role="listitem">
+Guttorp, Peter, and Tilmann Gneiting. 2006. <span>“Studies in the
+History of Probability and Statistics XLIX on the Mat<span>é</span>rn
+Correlation Family.”</span> <em>Biometrika</em> 93 (4): 989–95.
+</div>
+<div id="ref-haining1998exploratory" class="csl-entry" role="listitem">
+Haining, Robert Haining, Stephen Wise, and Jingsheng Ma. 1998.
+<span>“Exploratory Spatial Data Analysis in a Geographic Information
+System Environment.”</span> <em>Journal of the Royal Statistical Society
+Series D: The Statistician</em> 47 (3): 457–69.
+</div>
+<div id="ref-haining2003spatial" class="csl-entry" role="listitem">
+Haining, Robert P. 2003. <em>Spatial Data Analysis: Theory and
+Practice</em>. Cambridge university press.
+</div>
+<div id="ref-halleck2015slx" class="csl-entry" role="listitem">
+Halleck Vega, Solmaria, and J Paul Elhorst. 2015. <span>“The SLX
+Model.”</span> <em>Journal of Regional Science</em> 55 (3): 339–63.
+</div>
+<div id="ref-harris2011search" class="csl-entry" role="listitem">
+Harris, Richard, John Moffat, and Victoria Kravtsova. 2011. <span>“In
+Search of <span>‘w’</span>.”</span> <em>Spatial Economic Analysis</em> 6
+(3): 249–70.
+</div>
+<div id="ref-harville1977maximum" class="csl-entry" role="listitem">
+Harville, David A. 1977. <span>“Maximum Likelihood Approaches to
+Variance Component Estimation and to Related Problems.”</span>
+<em>Journal of the American Statistical Association</em> 72 (358):
+320–38.
+</div>
+<div id="ref-hastie1990generalized" class="csl-entry" role="listitem">
+Hastie, Trevor, and Robert Tibshirani. 1990. <em>Generalized Additive
+Models</em>. Monographs on Statistics and Applied Probability. London:
+Chapman; Hall.
+</div>
+<div id="ref-he2022multiscale" class="csl-entry" role="listitem">
+He, Zhanjun, Zhe Wang, Zhiqiang Xie, Lin Wu, and Zhen Chen. 2022.
+<span>“Multiscale Analysis of the Influence of Street Built Environment
+on Crime Occurrence Using Street-View Images.”</span> <em>Computers,
+Environment and Urban Systems</em> 97: 101865. <a href="https://doi.org/10.1016/j.compenvurbsys.2022.101865">https://doi.org/10.1016/j.compenvurbsys.2022.101865</a>.
+</div>
+<div id="ref-held2010conditional" class="csl-entry" role="listitem">
+Held, Leonhard, and Havard Rue. 2010. <span>“Conditional and Intrinsic
+Autoregressions.”</span> <em>Handbook of Spatial Statistics</em>,
+201–16.
+</div>
+<div id="ref-hepple1979bayesian" class="csl-entry" role="listitem">
+Hepple, Leslie W. 1979. <span>“Bayesian Analysis of the Linear Model
+with Spatial Dependence.”</span> In <em>Exploratory and Explanatory
+Statistical Analysis of Spatial Data</em>, 179–99. Springer.
+</div>
+<div id="ref-automap" class="csl-entry" role="listitem">
+Hiemstra, P. H., E. J. Pebesma, C. J. W. Twenh"ofel, and G. B. M.
+Heuvelink. 2008. <span>“Real-Time Automatic Interpolation of Ambient
+Gamma Dose Rates from the Dutch Radioactivity Monitoring
+Network.”</span> <em>Computers &amp; Geosciences</em>.
+</div>
+<div id="ref-geodata" class="csl-entry" role="listitem">
+Hijmans, Robert J. 2025. <em>Geodata: Access Geographic Data</em>. <a href="https://doi.org/10.32614/CRAN.package.geodata">https://doi.org/10.32614/CRAN.package.geodata</a>.
+</div>
+<div id="ref-hill1998comparison" class="csl-entry" role="listitem">
+Hill, Donna. 1998. <span>“Comparison of Median Indicator Kriging with
+Full Indicator Kriging in the Analysis of Spatial Data.”</span>
+</div>
+<div id="ref-hodges2010adding" class="csl-entry" role="listitem">
+Hodges, James S, and Brian J Reich. 2010. <span>“Adding
+Spatially-Correlated Errors Can Mess up the Fixed Effect You
+Love.”</span> <em>The American Statistician</em> 64 (4): 325–34.
+</div>
+<div id="ref-hopkins1954new" class="csl-entry" role="listitem">
+Hopkins, Brian, and John Gordon Skellam. 1954. <span>“A New Method for
+Determining the Type of Distribution of Plant Individuals.”</span>
+<em>Annals of Botany</em> 18 (2): 213–27.
+</div>
+<div id="ref-hurvich1998regression" class="csl-entry" role="listitem">
+Hurvich, Clifford M., Jeffrey S. Simonoff, and Chih-Ling Tsai. 1998.
+<span>“Smoothing Parameter Selection in Nonparametric Regression Using
+an Improved Akaike Information Criterion.”</span> <em>Journal of the
+Royal Statistical Society: Series B (Statistical Methodology)</em> 60
+(2): 271–93.
+</div>
+<div id="ref-iliffe2000datums" class="csl-entry" role="listitem">
+Iliffe, Jonathan. 2000. <em>Datums and Map Projections for Remote
+Sensing, GIS, and Surveying</em>. CRC Press.
+</div>
+<div id="ref-illian2019spatial" class="csl-entry" role="listitem">
+Illian, Janine B. 2019. <span>“Spatial and Spatio-Temporal Point
+Processes in Ecological Applications.”</span> In <em>Handbook of
+Environmental and Ecological Statistics</em>, 97–131. Chapman; Hall/CRC.
+</div>
+<div id="ref-illian2008statistical" class="csl-entry" role="listitem">
+Illian, Janine, Antti Penttinen, Helga Stoyan, and Dietrich Stoyan.
+2008. <em>Statistical Analysis and Modelling of Spatial Point
+Patterns</em>. John Wiley &amp; Sons.
+</div>
+<div id="ref-isaaks1989applied" class="csl-entry" role="listitem">
+Isaaks, Edward H, R Mohan Srivastava, et al. 1989. <span>“Applied
+Geostatistics.”</span>
+</div>
+<div id="ref-isham2010spatial" class="csl-entry" role="listitem">
+Isham, Valerie. 2010. <span>“Spatial Point Process Models.”</span>
+<em>Handbook of Spatial Statistics</em>, 283–98.
+</div>
+<div id="ref-jalilian2013decomposition" class="csl-entry" role="listitem">
+Jalilian, Abdollah, Yongtao Guan, and Rasmus Waagepetersen. 2013.
+<span>“Decomposition of Variance for Spatial Cox Processes.”</span>
+<em>Scandinavian Journal of Statistics</em> 40 (1): 119–37.
+</div>
+<div id="ref-jalilian2020modeling" class="csl-entry" role="listitem">
+Jalilian, Abdollah, Amir Safari, and Hormoz Sohrabi. 2020.
+<span>“Modeling Spatial Patterns and Species Associations in a Hyrcanian
+Forest Using a Multivariate Log-Gaussian Cox Process.”</span>
+<em>Journal of Statistical Modelling: Theory and Applications</em> 1
+(2): 59–76.
+</div>
+<div id="ref-janssen2009understanding" class="csl-entry" role="listitem">
+Janssen, Volker. 2009. <span>“Understanding Coordinate Reference
+Systems, Datums and Transformations.”</span>
+</div>
+<div id="ref-ji2025ordered" class="csl-entry" role="listitem">
+Ji, Guangjun, Zizhao Cai, Keyan Xiao, Yan Lu, and Qian Wang. 2025.
+<span>“Ordered Indicator Kriging Interpolation Method with Field
+Variogram Parameters for Discrete Variables in the Aquifers of
+Quaternary Loose Sediments.”</span> <em>Water</em> 17 (21): 3116.
+</div>
+<div id="ref-de1984extreme" class="csl-entry" role="listitem">
+Jong, Peter de, C Sprenger, and Frans van Veen. 1984. <span>“On Extreme
+Values of Moran’s i and Geary’s c.”</span> <em>Geographical
+Analysis</em> 16 (1): 17–24.
+</div>
+<div id="ref-journel1986constrained" class="csl-entry" role="listitem">
+Journel, Andre G. 1986. <span>“Constrained Interpolation and Qualitative
+Information—the Soft Kriging Approach.”</span> <em>Mathematical
+Geology</em> 18 (3): 269–86.
+</div>
+<div id="ref-journel1976mining" class="csl-entry" role="listitem">
+Journel, Andre G, and Charles J Huijbregts. 1976. <span>“Mining
+Geostatistics.”</span>
+</div>
+<div id="ref-journel1983nonparametric" class="csl-entry" role="listitem">
+Journel, André G. 1983. <span>“Nonparametric Estimation of Spatial
+Distributions.”</span> <em>Journal of the International Association for
+Mathematical Geology</em> 15 (3): 445–68.
+</div>
+<div id="ref-juang1998simple" class="csl-entry" role="listitem">
+Juang, Kai-Wei, and Dar-Yuan Lee. 1998. <span>“Simple Indicator Kriging
+for Estimating the Probability of Incorrectly Delineating Hazardous
+Areas in a Contaminated Site.”</span> <em>Environmental Science &amp;
+Technology</em> 32 (17): 2487–93.
+</div>
+<div id="ref-kaplan2017understanding" class="csl-entry" role="listitem">
+Kaplan, Elliott D, and Christopher Hegarty. 2017. <em>Understanding
+GPS/GNSS: Principles and Applications</em>. Artech house.
+</div>
+<div id="ref-KeefeFerreiraFranck2018" class="csl-entry" role="listitem">
+Keefe, Matthew J., Marcelo A. Ferreira, and Christopher T. Franck.
+2018a. <span>“On the Formal Specification of Sum-Zero Constrained
+Intrinsic Conditional Autoregressive Models.”</span> <em>Spatial
+Statistics</em> 24: 54–65. <a href="https://doi.org/10.1016/j.spasta.2018.02.005">https://doi.org/10.1016/j.spasta.2018.02.005</a>.
+</div>
+<div id="ref-KeefeFerreiraFranck2019" class="csl-entry" role="listitem">
+Keefe, Matthew J., Marco A. R. Ferreira, and Christopher T. Franck.
+2019. <span>“Objective Bayesian Analysis for Gaussian Hierarchical
+Models with Intrinsic Conditional Autoregressive Priors.”</span>
+<em>Bayesian Analysis</em> 14 (1): 181–209. <a href="https://doi.org/10.1214/18-BA1107">https://doi.org/10.1214/18-BA1107</a>.
+</div>
+<div id="ref-keefe2018formal" class="csl-entry" role="listitem">
+Keefe, Matthew J, Marco AR Ferreira, and Christopher T Franck. 2018b.
+<span>“On the Formal Specification of Sum-Zero Constrained Intrinsic
+Conditional Autoregressive Models.”</span> <em>Spatial Statistics</em>
+24: 54–65.
+</div>
+<div id="ref-Keefe2019ObjectiveBayesianICAR" class="csl-entry" role="listitem">
+Keefe, Michael J., Marco A. R. Ferreira, and Christopher T. Franck.
+2019. <span>“Objective Bayesian Analysis for Gaussian Hierarchical
+Models with Intrinsic Conditional Autoregressive Priors.”</span>
+<em>Bayesian Analysis</em> 14 (1): 181–209. <a href="https://doi.org/10.1214/18-BA1107">https://doi.org/10.1214/18-BA1107</a>.
+</div>
+<div id="ref-kelejian1998generalized" class="csl-entry" role="listitem">
+Kelejian, Harry H, and Ingmar R Prucha. 1998. <span>“A Generalized
+Spatial Two-Stage Least Squares Procedure for Estimating a Spatial
+Autoregressive Model with Autoregressive Disturbances.”</span> <em>The
+Journal of Real Estate Finance and Economics</em> 17 (1): 99–121.
+</div>
+<div id="ref-kelejian1999generalized" class="csl-entry" role="listitem">
+———. 1999. <span>“A Generalized Moments Estimator for the Autoregressive
+Parameter in a Spatial Model.”</span> <em>International Economic
+Review</em> 40 (2): 509–33.
+</div>
+<div id="ref-kelejian2010specification" class="csl-entry" role="listitem">
+———. 2010. <span>“Specification and Estimation of Spatial Autoregressive
+Models with Autoregressive and Heteroskedastic Disturbances.”</span>
+<em>Journal of Econometrics</em> 157 (1): 53–67.
+</div>
+<div id="ref-kelejian2017spatial" class="csl-entry" role="listitem">
+Kelejian, Harry, and Gianfranco Piras. 2017. <em>Spatial
+Econometrics</em>. Academic Press.
+</div>
+<div id="ref-klier2008clustering" class="csl-entry" role="listitem">
+Klier, Thomas, and Daniel P McMillen. 2008. <span>“Clustering of Auto
+Supplier Plants in the United States: Generalized Method of Moments
+Spatial Logit for Large Samples.”</span> <em>Journal of Business &amp;
+Economic Statistics</em> 26 (4): 460–71.
+</div>
+<div id="ref-koc2022bandwidth" class="csl-entry" role="listitem">
+Koç, Tufan. 2022. <span>“Bandwidth Selection in Geographically Weighted
+Regression Models via Information Complexity Criteria.”</span>
+<em>Journal of Mathematics</em>.
+</div>
+<div id="ref-krige2005genesis" class="csl-entry" role="listitem">
+Krige, Danie, and Wynand Kleingeld. 2005. <span>“The Genesis of
+Geostatistics in Gold and Diamond Industries.”</span> In <em>Space,
+Structure and Randomness: Contributions in Honor of Georges Matheron in
+the Field of Geostatistics, Random Sets and Mathematical
+Morphology</em>, 5–16. Springer.
+</div>
+<div id="ref-langley1999dilution" class="csl-entry" role="listitem">
+Langley, Richard B et al. 1999. <span>“Dilution of Precision.”</span>
+<em>GPS World</em> 10 (5): 52–59.
+</div>
+<div id="ref-lark2000estimating" class="csl-entry" role="listitem">
+Lark, RM. 2000. <span>“Estimating Variograms of Soil Properties by the
+Method-of-Moments and Maximum Likelihood.”</span> <em>European Journal
+of Soil Science</em> 51 (4): 717–28.
+</div>
+<div id="ref-laslett1994kriging" class="csl-entry" role="listitem">
+Laslett, Geoffrey M. 1994. <span>“Kriging and Splines: An Empirical
+Comparison of Their Predictive Performance in Some Applications.”</span>
+<em>Journal of the American Statistical Association</em> 89 (426):
+391–400.
+</div>
+<div id="ref-leick2015gps" class="csl-entry" role="listitem">
+Leick, Alfred, Lev Rapoport, and Dmitry Tatarnikov. 2015. <em>GPS
+Satellite Surveying</em>. John Wiley &amp; Sons.
+</div>
+<div id="ref-leininger2014bayesian" class="csl-entry" role="listitem">
+Leininger, Thomas J. 2014. <span>“Bayesian Analysis of Spatial Point
+Patterns.”</span> PhD thesis, Duke University.
+</div>
+<div id="ref-lesage1997bayesian" class="csl-entry" role="listitem">
+LeSage, James P. 1997. <span>“Bayesian Estimation of Spatial
+Autoregressive Models.”</span> <em>International Regional Science
+Review</em> 20 (1-2): 113–29.
+</div>
+<div id="ref-lesage2000bayesian" class="csl-entry" role="listitem">
+———. 2000. <span>“Bayesian Estimation of Limited Dependent Variable
+Spatial Autoregressive Models.”</span> <em>Geographical Analysis</em> 32
+(1): 19–35.
+</div>
+<div id="ref-lesage2009introduction" class="csl-entry" role="listitem">
+LeSage, James, and Robert Kelley Pace. 2009. <em>Introduction to Spatial
+Econometrics</em>. Chapman; Hall/CRC.
+</div>
+<div id="ref-li1994simulation" class="csl-entry" role="listitem">
+Li, Habin, and James F Reynolds. 1994. <span>“A Simulation Experiment to
+Quantify Spatial Heterogeneity in Categorical Maps.”</span>
+<em>Ecology</em> 75 (8): 2446–55.
+</div>
+<div id="ref-liesenfeld2013analysis" class="csl-entry" role="listitem">
+Liesenfeld, Roman, Jean-François Richard, and Jan Vogler. 2013.
+<span>“Analysis of Discrete Dependent Variable Models with Spatial
+Correlation.”</span> Economics Working Paper.
+</div>
+<div id="ref-de2005modelagem" class="csl-entry" role="listitem">
+Lima, Renato Ribeiro de. 2005. <span>“Modelagem Espa<span>ç</span>o
+Temporal Para Dados de Incid<span>ê</span>ncia de Doen<span>ç</span>as
+Em Plantas.”</span> PhD thesis, Tese piracicaba-SP.
+</div>
+<div id="ref-lindgren2022spde" class="csl-entry" role="listitem">
+Lindgren, Finn, David Bolin, and Håvard Rue. 2022. <span>“The SPDE
+Approach for Gaussian and Non-Gaussian Fields: 10 Years and Still
+Running.”</span> <em>Spatial Statistics</em> 50: 100599.
+</div>
+<div id="ref-lindgren2015bayesian" class="csl-entry" role="listitem">
+Lindgren, Finn, and Håvard Rue. 2015. <span>“Bayesian Spatial Modelling
+with r-INLA.”</span> <em>Journal of Statistical Software</em> 63: 1–25.
+</div>
+<div id="ref-lindgren2011explicit" class="csl-entry" role="listitem">
+Lindgren, Finn, Håvard Rue, and Johan Lindström. 2011. <span>“An
+Explicit Link Between Gaussian Fields and Gaussian Markov Random Fields:
+The Stochastic Partial Differential Equation Approach.”</span>
+<em>Journal of the Royal Statistical Society Series B: Statistical
+Methodology</em> 73 (4): 423–98.
+</div>
+<div id="ref-liu2023multiscale" class="csl-entry" role="listitem">
+Liu, Jun, K. W. Chau, and Zhen Bao. 2023. <span>“Multiscale Spatial
+Analysis of Metro Usage and Its Determinants for Sustainable Urban
+Development in Shenzhen, China.”</span> <em>Tunnelling and Underground
+Space Technology</em>. <a href="https://doi.org/10.1016/j.tust.2022.104912">https://doi.org/10.1016/j.tust.2022.104912</a>.
+</div>
+<div id="ref-loonis2018handbook" class="csl-entry" role="listitem">
+Loonis, Vincent, and Marie-Pierre de Bellefon. 2018. <span>“Handbook of
+Spatial Analysis: Theory and Application with r.”</span> <em>Paris:
+Eurostat, INSEE</em>, 394.
+</div>
+<div id="ref-fotheringham2002geographically" class="csl-entry" role="listitem">
+Lu, Binbin, Martin Charlton, Paul Harris, and A Stewart Fotheringham.
+2014. <span>“Geographically Weighted Regression with a Non-Euclidean
+Distance Metric: A Case Study Using Hedonic House Price Data.”</span>
+<em>International Journal of Geographical Information Science</em> 28
+(4): 660–81.
+</div>
+<div id="ref-lu2023uncovering" class="csl-entry" role="listitem">
+Lu, Bo, Yong Ge, Yeqiao Shi, Jing Zheng, and Paul Harris. 2023.
+<span>“Uncovering Drivers of Community-Level House Price Dynamics
+Through Multiscale Geographically Weighted Regression: A Case Study of
+Wuhan, China.”</span> <em>Spatial Statistics</em> 53: 100723. <a href="https://doi.org/10.1016/j.spasta.2022.100723">https://doi.org/10.1016/j.spasta.2022.100723</a>.
+</div>
+<div id="ref-mallows1995more" class="csl-entry" role="listitem">
+Mallows, Cohn L. 1995. <span>“More Comments on Cp.”</span>
+<em>Technometrics</em> 37 (4): 362–72.
+</div>
+<div id="ref-Mallows1973" class="csl-entry" role="listitem">
+Mallows, Colin L. 1973. <span>“Some Comments on <span><span class="math inline"><em>C</em><sub><em>p</em></sub></span></span>.”</span>
+<em>Technometrics</em> 15 (4): 661–75. <a href="https://doi.org/10.1080/00401706.1973.10489103">https://doi.org/10.1080/00401706.1973.10489103</a>.
+</div>
+<div id="ref-marchant2007robust" class="csl-entry" role="listitem">
+Marchant, BP, and RM Lark. 2007. <span>“Robust Estimation of the
+Variogram by Residual Maximum Likelihood.”</span> <em>Geoderma</em> 140
+(1-2): 62–72.
+</div>
+<div id="ref-martinetti2017approximate" class="csl-entry" role="listitem">
+Martinetti, Davide, and Ghislain Geniaux. 2017. <span>“Approximate
+Likelihood Estimation of Spatial Probit Models.”</span> <em>Regional
+Science and Urban Economics</em> 64: 30–45.
+</div>
+<div id="ref-mateu2022introduction" class="csl-entry" role="listitem">
+Mateu, Jorge, and Ramón Giraldo. 2022. <span>“Introduction to
+Geostatistical Functional Data Analysis.”</span> <em>Geostatistical
+Functional Data Analysis</em>, 1–25.
+</div>
+<div id="ref-mateus2013" class="csl-entry" role="listitem">
+Mateus, Ana Lúcia Souza Silva. 2013. <span>“Proposição de Novas
+Metodologias Para Análise de Aleatoriedade Em Processos Pontuais No
+Espaço-Tempo.”</span> Tese (Doutorado em Estatística e Experimentação
+Agropecuária), Lavras: Universidade Federal de Lavras.
+</div>
+<div id="ref-matheron1963principles" class="csl-entry" role="listitem">
+Matheron, G. 1963. <span>“" Principles of Geostatistics", Economic
+Geology, 58, Pp 1246-1266.”</span>
+</div>
+<div id="ref-matheron1971theory" class="csl-entry" role="listitem">
+Matheron, George. 1971. <span>“The Theory of Regionalised Variables and
+Its Applications.”</span> <em>Les Cahiers Du Centre de Morphologie
+Math<span>é</span>matique</em> 5: 212.
+</div>
+<div id="ref-mcbratney1986choosing" class="csl-entry" role="listitem">
+McBratney, AB, and R Webster. 1986. <span>“Choosing Functions for
+Semi-Variograms of Soil Properties and Fitting Them to Sampling
+Estimates.”</span> <em>Journal of Soil Science</em> 37 (4): 617–39.
+</div>
+<div id="ref-mcmillen1992probit" class="csl-entry" role="listitem">
+McMillen, Daniel P. 1992. <span>“Probit with Spatial
+Autocorrelation.”</span> <em>Journal of Regional Science</em> 32 (3):
+335–48.
+</div>
+<div id="ref-miao2025spatial" class="csl-entry" role="listitem">
+Miao, Xin, Fang Fang, Xuening Zhu, and Hansheng Wang. 2025.
+<span>“Spatial Weights Matrix Selection and Model Averaging for
+Multivariate Spatial Autoregressive Models.”</span> <em>Econometric
+Reviews</em>, 1–31.
+</div>
+<div id="ref-mocnik2023we" class="csl-entry" role="listitem">
+Mocnik, Franz-Benjamin. 2023. <span>“Why We Can Read Maps.”</span>
+<em>Cartography and Geographic Information Science</em> 50 (1): 1–19.
+</div>
+<div id="ref-mohammadpour2019geochemical" class="csl-entry" role="listitem">
+Mohammadpour, Mahyadin, Abbas Bahroudi, Maysam Abedi, Gholamreza
+Rahimipour, Golnaz Jozanikohan, and Farzaneh Mami Khalifani. 2019.
+<span>“Geochemical Distribution Mapping by Combining Number-Size
+Multifractal Model and Multiple Indicator Kriging.”</span> <em>Journal
+of Geochemical Exploration</em> 200: 13–26.
+</div>
+<div id="ref-moller2003statistical" class="csl-entry" role="listitem">
+Moller, Jesper, and Rasmus Plenge Waagepetersen. 2003. <em>Statistical
+Inference and Simulation for Spatial Point Processes</em>. CRC press.
+</div>
+<div id="ref-moller1998log" class="csl-entry" role="listitem">
+Møller, Jesper, Anne Randi Syversveen, and Rasmus Plenge Waagepetersen.
+1998. <span>“Log Gaussian Cox Processes.”</span> <em>Scandinavian
+Journal of Statistics</em> 25 (3): 451–82.
+</div>
+<div id="ref-moller2007modern" class="csl-entry" role="listitem">
+Møller, Jesper, and Rasmus P Waagepetersen. 2007. <span>“Modern
+Statistics for Spatial Point Processes.”</span> <em>Scandinavian Journal
+of Statistics</em> 34 (4): 643–84.
+</div>
+<div id="ref-monmonier2005lying" class="csl-entry" role="listitem">
+Monmonier, Mark. 2005. <span>“Lying with Maps.”</span> <em>Statistical
+Science</em>, 215–22.
+</div>
+<div id="ref-moraga2023spatial" class="csl-entry" role="listitem">
+Moraga, Paula. 2023. <em>Spatial Statistics for Data Science: Theory and
+Practice with r</em>. CRC Press.
+</div>
+<div id="ref-moran1950notes" class="csl-entry" role="listitem">
+Moran, Patrick AP. 1950. <span>“Notes on Continuous Stochastic
+Phenomena.”</span> <em>Biometrika</em> 37 (1/2): 17–23.
+</div>
+<div id="ref-moreno2023functional" class="csl-entry" role="listitem">
+Moreno, Alvaro Alexander Burbano et al. 2023. <span>“Functional Data
+Analysis: Spatial Association of Curves and Irregular Spacing.”</span>
+</div>
+<div id="ref-morisita1959measuring" class="csl-entry" role="listitem">
+Morisita, Masaaki. 1959. <span>“Measuring of the Dispersion of
+Individuals and Analysis of the Distributional Patterns.”</span>
+<em>Memoirs of the Faculty of Science, E 2, Kyushu Univ. Ser.</em>
+</div>
+<div id="ref-myers1994spatial" class="csl-entry" role="listitem">
+Myers, Donald E. 1994. <span>“Spatial Interpolation: An
+Overview.”</span> <em>Geoderma</em> 62 (1-3): 17–28.
+</div>
+<div id="ref-nhancololo2024processos" class="csl-entry" role="listitem">
+Nhancololo, A. M. 2024b. <span>“Processos Pontuais Espaciais Univariados
+Aplicados à Distribuição de Espécies Arbóreas Em Florestas
+Naturais.”</span> Dissertação (Mestrado em Estatística e Experimentação
+Agropecuária), Lavras: Universidade Federal de Lavras.
+</div>
+<div id="ref-nhancololo2024" class="csl-entry" role="listitem">
+———. 2024a. <span>“Processos Pontuais Espaciais Univariados Aplicados à
+Distribuição de Espécies Arbóreas Em Florestas Naturais.”</span>
+Dissertação (Mestrado em Estatística e Experimentação Agropecuária),
+Lavras: Universidade Federal de Lavras.
+</div>
+<div id="ref-nhancololo2024comparison" class="csl-entry" role="listitem">
+Nhancololo, A. M., Wélson A. Oliveira, Fernandes A. C. Pereira, Bruno
+Montoani Silva, and João Domingos Scalon. 2024. <span>“Comparison
+Between the Laboratory Method and the Stolf Penetrometer in Soil Density
+Analysis: A Study Using Geostatistical Approaches.”</span>
+<em>Sigmae</em> 13 (1): 63–78. <a href="https://doi.org/10.29327/2520355.13.1-7">https://doi.org/10.29327/2520355.13.1-7</a>.
+</div>
+<div id="ref-nightingale2019area" class="csl-entry" role="listitem">
+Nightingale, Glenna F, Janine B Illian, Ruth King, and Peter
+Nightingale. 2019. <span>“Area Interaction Point Processes for Bivariate
+Point Patterns in a Bayesian Context.”</span> <em>Journal of
+Environmental Statistics</em> 9 (2).
+</div>
+<div id="ref-okabe2006bayesian" class="csl-entry" role="listitem">
+Okabe, Masahilo, and Masaharu Tanemura. 2006. <span>“Bayesian Estimation
+of Soft-Core Potential Models for Spatial Point Patterns.”</span>
+<em>Journal of the Japan Statistical Society</em> 36 (2): 121–47.
+</div>
+<div id="ref-oliver2014tutorial" class="csl-entry" role="listitem">
+Oliver, MA, and R Webster. 2014. <span>“A Tutorial Guide to
+Geostatistics: Computing and Modelling Variograms and Kriging.”</span>
+<em>Catena</em> 113: 56–69.
+</div>
+<div id="ref-openshaw1984modifiable" class="csl-entry" role="listitem">
+Openshaw, Stan. 1984. <span>“The Modifiable Areal Unit Problem.”</span>
+<em>Concepts and Techniques in Modern Geography</em>.
+</div>
+<div id="ref-oshan2020targeting" class="csl-entry" role="listitem">
+Oshan, Taylor M., James P. Smith, and A. Stewart Fotheringham. 2020.
+<span>“Targeting the Spatial Context of Obesity Determinants via
+Multiscale Geographically Weighted Regression.”</span> <em>International
+Journal of Health Geographics</em> 19 (1): 11. <a href="https://doi.org/10.1186/s12942-020-00204-8">https://doi.org/10.1186/s12942-020-00204-8</a>.
+</div>
+<div id="ref-paradis2005r" class="csl-entry" role="listitem">
+Paradis, Emmanuel. 2005. <em>R for Beginners</em>. <a href="https://cran.r-project.org/doc/contrib/Paradis-rdebuts_en.pdf">https://cran.r-project.org/doc/contrib/Paradis-rdebuts_en.pdf</a>.
+</div>
+<div id="ref-Paula2013DiagnosticsDGLM" class="csl-entry" role="listitem">
+Paula, Gilberto A. 2013. <span>“On Diagnostics in Double Generalized
+Linear Models.”</span> <em>Computational Statistics &amp; Data
+Analysis</em> 68: 44–51. <a href="https://doi.org/10.1016/j.csda.2013.07.003">https://doi.org/10.1016/j.csda.2013.07.003</a>.
+</div>
+<div id="ref-Paula2025ModelosRegressao" class="csl-entry" role="listitem">
+———. 2025. <em>Modelos de Regress<span>ã</span>o e
+Aplica<span>ç</span><span>õ</span>es</em>. S<span>ã</span>o Paulo:
+Instituto de Matem<span>á</span>tica e Estat<span>ı́</span>stica,
+Universidade de S<span>ã</span>o Paulo.
+</div>
+<div id="ref-pebesma2018simple" class="csl-entry" role="listitem">
+Pebesma, Edzer. 2018. <span>“Simple Features for r: Standardized Support
+for Spatial Vector Data.”</span>
+</div>
+<div id="ref-pebesma2004multivariable" class="csl-entry" role="listitem">
+Pebesma, Edzer J. 2004. <span>“Multivariable Geostatistics in s: The
+Gstat Package.”</span> <em>Computers &amp; Geosciences</em> 30 (7):
+683–91.
+</div>
+<div id="ref-pebesma2023spatial" class="csl-entry" role="listitem">
+Pebesma, Edzer, and Roger Bivand. 2023. <em>Spatial Data Science: With
+Applications in r</em>. Chapman; Hall/CRC.
+</div>
+<div id="ref-peng2024multiscale" class="csl-entry" role="listitem">
+Peng, Zhan, and Ryo Inoue. 2024. <span>“Multiscale Continuous and
+Discrete Spatial Heterogeneity Analysis: The Development of a Local
+Model Combining Eigenvector Spatial Filters and Generalized Lasso
+Penalties.”</span> <em>Geographical Analysis</em> 56 (2): 303–27.
+</div>
+<div id="ref-pereira2024geobr" class="csl-entry" role="listitem">
+Pereira, Rafael HM, and Caio Nogueira Goncalves. 2024. <span>“Geobr:
+Download Official Spatial Data Sets of Brazil.”</span> <em>R Package
+Version</em> 1 (0): 18.
+</div>
+<div id="ref-pinkse1998contracting" class="csl-entry" role="listitem">
+Pinkse, Joris, and Margaret E Slade. 1998. <span>“Contracting in Space:
+An Application of Spatial Statistics to Discrete-Choice Models.”</span>
+<em>Journal of Econometrics</em> 85 (1): 125–54.
+</div>
+<div id="ref-prestby2025trust" class="csl-entry" role="listitem">
+Prestby, Timothy J. 2025. <span>“Trust in Maps: What We Know and What We
+Need to Know.”</span> <em>Cartography and Geographic Information
+Science</em> 52 (1): 1–18.
+</div>
+<div id="ref-ramsay2005functional" class="csl-entry" role="listitem">
+Ramsay, James O, and Bernard W Silverman. 2005. <em>Functional Data
+Analysis</em>. Springer.
+</div>
+<div id="ref-reich2006effects" class="csl-entry" role="listitem">
+Reich, Brian J, James S Hodges, and Vesna Zadnik. 2006. <span>“Effects
+of Residual Smoothing on the Posterior of the Fixed Effects in
+Disease-Mapping Models.”</span> <em>Biometrics</em> 62 (4): 1197–1206.
+</div>
+<div id="ref-ribeiro2006geor" class="csl-entry" role="listitem">
+Ribeiro Jr, Paulo J, and Peter J Diggle. 2006. <span>“geoR: Package for
+Geostatistical Data Analysis an Illustrative Session.”</span>
+<em>Artificial Intelligence</em> 1: 1–24.
+</div>
+<div id="ref-geoR" class="csl-entry" role="listitem">
+Ribeiro Jr, Paulo Justiniano, and Peter Diggle. 2025. <em>geoR: Analysis
+of Geostatistical Data</em>. <a href="https://doi.org/10.32614/CRAN.package.geoR">https://doi.org/10.32614/CRAN.package.geoR</a>.
+</div>
+<div id="ref-richardson1995robust" class="csl-entry" role="listitem">
+Richardson, Alice M, and Alan H Welsh. 1995. <span>“Robust Restricted
+Maximum Likelihood in Mixed Linear Models.”</span> <em>Biometrics</em>,
+1429–39.
+</div>
+<div id="ref-riebler2016intuitive" class="csl-entry" role="listitem">
+Riebler, Andrea, Sigrunn H Sørbye, Daniel Simpson, and Håvard Rue. 2016.
+<span>“An Intuitive Bayesian Spatial Model for Disease Mapping That
+Accounts for Scaling.”</span> <em>Statistical Methods in Medical
+Research</em> 25 (4): 1145–65.
+</div>
+<div id="ref-Rigby2019DistributionsGAMLSS" class="csl-entry" role="listitem">
+Rigby, Robert A., Mikis D. Stasinopoulos, Gillian Z. Heller, and Frosso
+De Bastiani. 2019. <em>Distributions for Modeling Location, Scale, and
+Shape: Using <span>GAMLSS</span> in <span>R</span></em>. Boca Raton:
+Chapman; Hall/CRC.
+</div>
+<div id="ref-rue2005gaussian" class="csl-entry" role="listitem">
+Rue, Havard, and Leonhard Held. 2005. <em>Gaussian Markov Random Fields:
+Theory and Applications</em>. Chapman; Hall/CRC.
+</div>
+<div id="ref-RueHeld2005" class="csl-entry" role="listitem">
+Rue, Håvard, and Leonhard Held. 2005. <em>Gaussian Markov Random Fields:
+Theory and Applications</em>. Chapman &amp; Hall/CRC Monographs on
+Statistics &amp; Applied Probability. Boca Raton: Chapman; Hall/CRC.
+</div>
+<div id="ref-rue2009approximate" class="csl-entry" role="listitem">
+Rue, Håvard, Sara Martino, and Nicolas Chopin. 2009. <span>“Approximate
+Bayesian Inference for Latent Gaussian Models by Using Integrated Nested
+Laplace Approximations.”</span> <em>Journal of the Royal Statistical
+Society Series B: Statistical Methodology</em> 71 (2): 319–92.
+</div>
+<div id="ref-sachdeva2022do" class="csl-entry" role="listitem">
+Sachdeva, Manish, A. Stewart Fotheringham, and Zhen Li. 2022. <span>“Do
+Places Have Value? <span>Q</span>uantifying the Intrinsic Value of
+Housing Neighborhoods Using <span>MGWR</span>.”</span> <em>Journal of
+Housing Research</em> 31 (1): 24–52.
+</div>
+<div id="ref-sahu2022bayesian" class="csl-entry" role="listitem">
+Sahu, Sujit. 2022. <em>Bayesian Modeling of Spatio-Temporal Data with
+r</em>. Chapman; Hall/CRC.
+</div>
+<div id="ref-scalon2024analise" class="csl-entry" role="listitem">
+Scalon, João Domingos. 2024. <em>Análise de Dados Espaciais Com
+Aplicações Em r</em>. Lavras: Ed. UFLA.
+</div>
+<div id="ref-scalon2022statistical" class="csl-entry" role="listitem">
+Scalon, João Domingos, Victor Ferreira da Silva, Wélson Antônio de
+Oliveira, and Mateus Santos Peixoto. 2022. <span>“Statistical
+Characterization of Spatial and Size Distributions of Particles in
+Composite Materials Used in the Manufacturing of Biomedical
+Instruments.”</span> <em>Brazilian Journal of Biometrics</em> 40 (4):
+428–41.
+</div>
+<div id="ref-schmidt2003bayesian" class="csl-entry" role="listitem">
+Schmidt, Alexandra M, and Anthony O’Hagan. 2003. <span>“Bayesian
+Inference for Non-Stationary Spatial Covariance Structure via Spatial
+Deformations.”</span> <em>Journal of the Royal Statistical Society
+Series B: Statistical Methodology</em> 65 (3): 743–58.
+</div>
+<div id="ref-Shareef2015LightningSearch" class="csl-entry" role="listitem">
+Shareef, Hitham, A. A. Ibrahim, and A. H. Mutlag. 2015. <span>“Lightning
+Search Algorithm.”</span> <em>Applied Soft Computing</em> 36: 315–33.
+</div>
+<div id="ref-simpson2017penalising" class="csl-entry" role="listitem">
+Simpson, Daniel, Håvard Rue, Andrea Riebler, Thiago G Martins, and
+Sigrunn H Sørbye. 2017. <span>“Penalising Model Component Complexity: A
+Principled, Practical Approach to Constructing Priors.”</span>
+</div>
+<div id="ref-ggrepel" class="csl-entry" role="listitem">
+Slowikowski, Kamil. 2024. <em>Ggrepel: Automatically Position
+Non-Overlapping Text Labels with ’Ggplot2’</em>. <a href="https://doi.org/10.32614/CRAN.package.ggrepel">https://doi.org/10.32614/CRAN.package.ggrepel</a>.
+</div>
+<div id="ref-snyder1987map" class="csl-entry" role="listitem">
+Snyder, John Parr. 1987. <em>Map Projections–a Working Manual</em>. Vol.
+1395. US Government Printing Office.
+</div>
+<div id="ref-sorbye2017penalised" class="csl-entry" role="listitem">
+Sørbye, Sigrunn Holbek, and Håvard Rue. 2017. <span>“Penalised
+Complexity Priors for Stationary Autoregressive Processes.”</span>
+<em>Journal of Time Series Analysis</em> 38 (6): 923–35.
+</div>
+<div id="ref-sorbye2014scaling" class="csl-entry" role="listitem">
+Sørbye, Sigrunn H., and Håvard Rue. 2014. <span>“Scaling Intrinsic
+Gaussian Markov Random Field Priors in Spatial Modelling.”</span>
+<em>Spatial Statistics</em> 8: 39–51. <a href="https://doi.org/10.1016/j.spasta.2013.06.004">https://doi.org/10.1016/j.spasta.2013.06.004</a>.
+</div>
+<div id="ref-Stasinopoulos2024GAMLSS" class="csl-entry" role="listitem">
+Stasinopoulos, Mikis D., Thomas Kneib, Nadja Klein, Andreas Mayr, and
+Gillian Z. Heller. 2024. <em>Generalized Additive Models for Location,
+Scale and Shape: A Distributional Regression Approach, with
+Applications</em>. Vol. 56. Cambridge: Cambridge University Press.
+</div>
+<div id="ref-Stasinopoulos2017GAMLSS" class="csl-entry" role="listitem">
+Stasinopoulos, Mikis D., Robert A. Rigby, Gillian Z. Heller, Vlasios
+Voudouris, and Frosso De Bastiani. 2017. <em>Flexible Regression and
+Smoothing: Using <span>GAMLSS</span> in <span>R</span></em>. Chapman
+&amp; Hall/CRC Texts in Statistical Science. Boca Raton: CRC Press.
+</div>
+<div id="ref-ggmapinset" class="csl-entry" role="listitem">
+Suster, Carl. 2024. <em>Ggmapinset: Add Inset Panels to Maps</em>. <a href="https://doi.org/10.32614/CRAN.package.ggmapinset">https://doi.org/10.32614/CRAN.package.ggmapinset</a>.
+</div>
+<div id="ref-tiefelsdorf2000modelling" class="csl-entry" role="listitem">
+Tiefelsdorf, Michael. 2000. <em>Modelling Spatial Processes: The
+Identification and Analysis of Spatial Relationships in Regression
+Residuals by Means of Moran’s i</em>. Springer.
+</div>
+<div id="ref-tobias2024note" class="csl-entry" role="listitem">
+Tobias, Justin L. 2024. <span>“A Note on the Cowles-EM Algorithm for
+Bayesian Ordinal Probit Models.”</span> <em>Research in Statistics</em>
+3 (1): 2476409.
+</div>
+<div id="ref-tobler1970computer" class="csl-entry" role="listitem">
+Tobler, Waldo R. 1970. <span>“A Computer Movie Simulating Urban Growth
+in the Detroit Region.”</span> <em>Economic Geography</em> 46 (sup1):
+234–40.
+</div>
+<div id="ref-ungaro2008arsenic" class="csl-entry" role="listitem">
+Ungaro, F, F Ragazzi, R Cappellin, and P Giandon. 2008. <span>“Arsenic
+Concentration in the Soils of the Brenta Plain (Northern Italy): Mapping
+the Probability of Exceeding Contamination Thresholds.”</span>
+<em>Journal of Geochemical Exploration</em> 96 (2-3): 117–31.
+</div>
+<div id="ref-unwin1974statistical" class="csl-entry" role="listitem">
+Unwin, David J, and Leslie W Hepple. 1974. <span>“The Statistical
+Analysis of Spatial Series.”</span> <em>Journal of the Royal Statistical
+Society: Series D (The Statistician)</em> 23 (3-4): 211–27.
+</div>
+<div id="ref-van1996nonparametric" class="csl-entry" role="listitem">
+Van Lieshout, MNM, and AJ1422574 Baddeley. 1996. <span>“A Nonparametric
+Measure of Spatial Interaction in Point Patterns.”</span> <em>Statistica
+Neerlandica</em> 50 (3): 344–61.
+</div>
+<div id="ref-vanicek2015geodesy" class="csl-entry" role="listitem">
+Vanicek, Petr, and Edward J Krakiwsky. 2015. <em>Geodesy: The
+Concepts</em>. Elsevier.
+</div>
+<div id="ref-venables2015notes" class="csl-entry" role="listitem">
+Venables, W. N., D. M. Smith, and R Core Team. 2015. <em>An Introduction
+to r</em>. Vienna, Austria: R Foundation for Statistical Computing. <a href="https://cran.r-project.org/doc/manuals/r-release/R-intro.pdf">https://cran.r-project.org/doc/manuals/r-release/R-intro.pdf</a>.
+</div>
+<div id="ref-ver1998constructing" class="csl-entry" role="listitem">
+Ver Hoef, Jay M, and Ronald Paul Barry. 1998. <span>“Constructing and
+Fitting Models for Cokriging and Multivariable Spatial
+Prediction.”</span> <em>Journal of Statistical Planning and
+Inference</em> 69 (2): 275–94.
+</div>
+<div id="ref-ver2018relationship" class="csl-entry" role="listitem">
+Ver Hoef, Jay M, Ephraim M Hanks, and Mevin B Hooten. 2018. <span>“On
+the Relationship Between Conditional (CAR) and Simultaneous (SAR)
+Autoregressive Models.”</span> <em>Spatial Statistics</em> 25: 68–85.
+</div>
+<div id="ref-waagepetersen2009two" class="csl-entry" role="listitem">
+Waagepetersen, Rasmus, and Yongtao Guan. 2009. <span>“Two-Step
+Estimation for Inhomogeneous Spatial Point Processes.”</span>
+<em>Journal of the Royal Statistical Society Series B: Statistical
+Methodology</em> 71 (3): 685–702.
+</div>
+<div id="ref-wackernagel2003multivariate" class="csl-entry" role="listitem">
+Wackernagel, Hans. 2003. <em>Multivariate Geostatistics: An Introduction
+with Applications</em>. Springer Science &amp; Business Media.
+</div>
+<div id="ref-wagner2005spatial" class="csl-entry" role="listitem">
+Wagner, Helene H, and Marie-Josée Fortin. 2005. <span>“Spatial Analysis
+of Landscapes: Concepts and Statistics.”</span> <em>Ecology</em> 86 (8):
+1975–87.
+</div>
+<div id="ref-wall2004close" class="csl-entry" role="listitem">
+Wall, Melanie M. 2004. <span>“A Close Look at the Spatial Structure
+Implied by the CAR and SAR Models.”</span> <em>Journal of Statistical
+Planning and Inference</em> 121 (2): 311–24.
+</div>
+<div id="ref-waller2024maps" class="csl-entry" role="listitem">
+Waller, Lance A. 2024. <span>“Maps: A Statistical View.”</span>
+<em>Annual Review of Statistics and Its Application</em> 11.
+</div>
+<div id="ref-wang2016functional" class="csl-entry" role="listitem">
+Wang, Jane-Ling, Jeng-Min Chiou, and Hans-Georg Müller. 2016.
+<span>“Functional Data Analysis.”</span> <em>Annual Review of Statistics
+and Its Application</em> 3 (1): 257–95.
+</div>
+<div id="ref-wang2009baysian" class="csl-entry" role="listitem">
+Wang, Xiaokun, and Kara M Kockelman. 2009. <span>“Baysian Inference for
+Ordered Response Data with a Dynamic Spatial-Ordered Probit
+Model.”</span> <em>Journal of Regional Science</em> 49 (5): 877–913.
+</div>
+<div id="ref-wheeler2005multicollinearity" class="csl-entry" role="listitem">
+Wheeler, David, and Michael Tiefelsdorf. 2005. <span>“Multicollinearity
+and Correlation Among Local Regression Coefficients in Geographically
+Weighted Regression.”</span> <em>Journal of Geographical Systems</em> 7
+(2): 161–87. <a href="https://doi.org/10.1007/s10109-005-0155-6">https://doi.org/10.1007/s10109-005-0155-6</a>.
+</div>
+<div id="ref-whittle1954stationary" class="csl-entry" role="listitem">
+Whittle, Peter. 1954. <span>“On Stationary Processes in the
+Plane.”</span> <em>Biometrika</em>, 434–49.
+</div>
+<div id="ref-wickham2016ggplot2" class="csl-entry" role="listitem">
+Wickham, Hadley. 2016. <em>Ggplot2: Elegant Graphics for Data
+Analysis</em>. 2nd ed. Springer-Verlag New York.
+</div>
+<div id="ref-wickham2019advanced" class="csl-entry" role="listitem">
+———. 2019. <em>Advanced r</em>. 2nd ed. CRC Press.
+</div>
+<div id="ref-wickham2023r" class="csl-entry" role="listitem">
+Wickham, Hadley, Mine Çetinkaya-Rundel, and Garrett Grolemund. 2023.
+<em>R for Data Science: Import, Tidy, Transform, Visualize, and Model
+Data</em>. 2nd ed. O’Reilly Media.
+</div>
+<div id="ref-wiegand2014handbook" class="csl-entry" role="listitem">
+Wiegand, Thorsten, and Kirk A Moloney. 2014. <em>Handbook of Spatial
+Point-Pattern Analysis in Ecology</em>. CRC press.
+</div>
+<div id="ref-wild2017statistics" class="csl-entry" role="listitem">
+Wild, Christopher J, Jessica M Utts, and Nicholas J Horton. 2017.
+<span>“What Is Statistics?”</span> In <em>International Handbook of
+Research in Statistics Education</em>, 5–36. Springer.
+</div>
+<div id="ref-wilhelm2013estimating" class="csl-entry" role="listitem">
+Wilhelm, Stefan, and Miguel Godinho de Matos. 2013. <span>“Estimating
+Spatial Probit Models in r.”</span>
+</div>
+<div id="ref-wu2018multiscale" class="csl-entry" role="listitem">
+Wu, Chengdong, Feng Ren, Wei Hu, and Qingyun Du. 2019. <span>“Multiscale
+Geographically and Temporally Weighted Regression: Exploring the
+Spatiotemporal Determinants of Housing Prices.”</span> <em>International
+Journal of Geographical Information Science</em> 33 (3): 489–511. <a href="https://doi.org/10.1080/13658816.2018.1528246">https://doi.org/10.1080/13658816.2018.1528246</a>.
+</div>
+<div id="ref-yamamoto2013geoestatistica" class="csl-entry" role="listitem">
+Yamamoto, Jorge Kazuo, and Paulo M. Barbosa Landim. 2013.
+<em>Geoestatística: Conceitos e Aplicações</em>. São Paulo: Oficina de
+Textos.
+</div>
+<div id="ref-yang2011extension" class="csl-entry" role="listitem">
+Yang, Wenbai, A. Stewart Fotheringham, and Paul Harris. 2011. <span>“An
+Extension of Geographically Weighted Regression with Flexible
+Bandwidths.”</span> In <em>Proceedings of an International Conference on
+Spatial Analysis and Modelling</em>. St Andrews, Scotland, UK.
+</div>
+<div id="ref-Yang2014FlexibleBandwidthGWR" class="csl-entry" role="listitem">
+Yang, Wenbo. 2014. <span>“An Extension of Geographically Weighted
+Regression with Flexible Bandwidths.”</span> PhD thesis, University of
+St Andrews.
+</div>
+<div id="ref-yu2019inference" class="csl-entry" role="listitem">
+Yu, Hanchen, A. Stewart Fotheringham, Zhen Li, Taylor M. Oshan, Wei
+Kang, and Levi J. Wolf. 2020. <span>“Inference in Multiscale
+Geographically Weighted Regression.”</span> <em>Geographical
+Analysis</em> 52 (1): 87–106.
+</div>
+<div id="ref-fotheringham2020" class="csl-entry" role="listitem">
+Yu, Huili, A. Stewart Fotheringham, Zhenlong Li, Taylor M. Oshan, and
+Levi J. Wolf. 2020. <span>“On the Measurement of Bias in Geographically
+Weighted Regression Models.”</span> <em>Spatial Statistics</em> 38:
+100453. <a href="https://doi.org/10.1016/j.spasta.2020.100453">https://doi.org/10.1016/j.spasta.2020.100453</a>.
+</div>
+<div id="ref-zhang2018spatial" class="csl-entry" role="listitem">
+Zhang, Xinyu, and Jihai Yu. 2018. <span>“Spatial Weights Matrix
+Selection and Model Averaging for Spatial Autoregressive Models.”</span>
+<em>Journal of Econometrics</em> 203 (1): 1–18.
+</div>
+</div>
+
+
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copiada");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copiada");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./spatiotemporal.html" class="pagination-link" aria-label="Modelagem Espaço-Temporal">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Modelagem Espaço-Temporal</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+  </div>
+</nav>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>Copyright Cursos de Verão IME-USP 2025, Alex Monito Nhancololo</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/Nhancololo">
+      <i class="bi bi-github" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/in/almonha/">
+      <i class="bi bi-linkedin" role="img">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+
+<script src="site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>
