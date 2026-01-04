@@ -186,25 +186,6 @@ window.Quarto = {
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Introdução à Estatística Espacial</a> 
-        <div class="sidebar-tools-main">
-    <div class="dropdown">
-      <a href="" title="Baixar" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" role="link" aria-label="Baixar"><i class="bi bi-download"></i></a>
-      <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
-          <li>
-            <a class="dropdown-item sidebar-tools-main-item" href="./Introdução-à-Estatística-Espacial.pdf">
-              <i class="bi bi-file-pdf pe-1"></i>
-            Baixar PDF
-            </a>
-          </li>
-          <li>
-            <a class="dropdown-item sidebar-tools-main-item" href="./Introdução-à-Estatística-Espacial.epub">
-              <i class="bi bi-journal pe-1"></i>
-            Baixar ePub
-            </a>
-          </li>
-      </ul>
-    </div>
-</div>
     </div>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -1431,7 +1412,7 @@ L_{REML}(\boldsymbol{\theta}) \propto -\frac{1}{2} \Bigg( &amp; \underbrace{\ln|
 <p>Dado um <span class="math inline">\(\boldsymbol{\theta}\)</span> fixo, <span class="math inline">\(\hat{\boldsymbol{\beta}}_{R}\)</span> é o vetor que minimiza:</p>
 <p><span class="math display">\[Q_{\beta}(\boldsymbol{\beta}) = \sum_{i=1}^{n} \rho_c \left( [\mathbf{V}^{-1/2} (\mathbf{y} - \mathbf{X}\boldsymbol{\beta})]_i \right)\]</span></p>
 <p>Onde <span class="math inline">\(\rho_c(\cdot)\)</span> é a função de Huber (definida abaixo). Esta etapa garante que a estimativa da tendência (média local) não seja “puxada” por valores extremos, fornecendo uma base estável para a estimativa da variância.</p>
-<p>A função objetivo a ser minimizada para estimar <span class="math inline">\(\boldsymbol{\theta}\)</span> substitui o termo quadrático da verossimilhança restrita (<em>Robust Estimation of a Location Parameter</em>) pela soma dos escores de Huber dos resíduos decorrelacionados, calculados com base no <span class="math inline">\(\hat{\boldsymbol{\beta}}_{R}\)</span>.</p>
+<p>A função objetivo a ser minimizada para estimar <span class="math inline">\(\boldsymbol{\theta}\)</span> substitui o termo quadrático da verossimilhança restrita (Robust Estimation of a Location Parameter) pela soma dos escores de Huber dos resíduos decorrelacionados, calculados com base no <span class="math inline">\(\hat{\boldsymbol{\beta}}_{R}\)</span>.</p>
 <p>A função objetivo negativa de log-verossimilhança robusta é definida como:</p>
 <p><span class="math display">\[L_{Rob}(\boldsymbol{\theta}) = \underbrace{\frac{1}{2}\ln|\mathbf{V}(\boldsymbol{\theta})| + \frac{1}{2}\ln|\mathbf{X}^T \mathbf{V}(\boldsymbol{\theta})^{-1} \mathbf{X}|}_{\text{Penalidades de Complexidade e Viés (Inalteradas)}} + \underbrace{\sum_{i=1}^{n} \rho_c \left( \left[ \mathbf{V}(\boldsymbol{\theta})^{-1/2} (\mathbf{y} - \mathbf{X}\hat{\boldsymbol{\beta}}_{R}) \right]_i \right)}_{\text{Termo de Ajuste Robusto aos Resíduos}}\]</span></p>
 <p>onde <span class="math inline">\(\mathbf{V}(\boldsymbol{\theta})^{-1/2}\)</span> garante que a métrica de distância considere a correlação espacial. Um outlier espacial não é apenas um valor alto, mas um valor que difere do que seria esperado dada a sua vizinhança. A decorrelação expõe estes valores. <span class="math inline">\(\hat{\boldsymbol{\beta}}_{R}\)</span> é o estimador robusto da tendência. Se usássemos o GLS padrão aqui, o viés na média propagar-se-ia para a variância. <span class="math inline">\(\rho_c(u)\)</span> (Função de Huber) é uma função híbrida que limita a influência de resíduos grandes. É definida por:</p>
@@ -4251,14 +4232,20 @@ Yamamoto, Jorge Kazuo, e Paulo M. Barbosa Landim. 2013. <em>Geoestatística: con
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/Nhancololo">
-      <i class="bi bi-github" role="img">
+    <a class="nav-link" href="https://github.com/Nhancololo/Introducao-a-Estatistica-Espacial">
+      <i class="bi bi-github" role="img" aria-label="Código Fonte">
 </i> 
     </a>
   </li>  
     <li class="nav-item compact">
-    <a class="nav-link" href="https://www.linkedin.com/in/almonha/">
-      <i class="bi bi-linkedin" role="img">
+    <a class="nav-link" href="https://linkedin.com/in/almonha">
+      <i class="bi bi-linkedin" role="img" aria-label="LinkedIn">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://nhancololo.github.io/">
+      <i class="bi bi-globe" role="img" aria-label="Website Pessoal">
 </i> 
     </a>
   </li>  
