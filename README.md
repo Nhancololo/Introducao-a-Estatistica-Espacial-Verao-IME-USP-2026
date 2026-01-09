@@ -35,7 +35,7 @@ Se este material for útil para sua pesquisa ou trabalho, por favor, utilize as 
 > NHANCOLOLO, A. M.; SCALON, J. D. Introdução à Estatística Espacial: teoria e aplicações com R. São Paulo: Universidade de São Paulo, 2026. Disponível em: [https://introducao-a-estatistica-espacial.netlify.app/](https://introducao-a-estatistica-espacial.netlify.app/)
 
 
-@book{NhancololoScalon2026,
+> @book{NhancololoScalon2026,
   author    = {Nhancololo, Alex Monito and Scalon, Jos{\'e} D.},
   title     = {Introdu{\c{c}}{\~a}o {\`a} Estat{\'\i}stica Espacial: Teoria e Aplica{\c{c}}{\~o}es com R},
   year      = {2026},
